@@ -260,7 +260,7 @@ kbd {
 
 .reveal .slide-background {
 	background-color: $backgroundColor;
-	// background-image: $logo;
+	background-image: $logo;
 	background-repeat: no-repeat;
 	background-position: 0.45% 99.2%;
 	background-size: 15%;
@@ -272,7 +272,7 @@ kbd {
 }
 
 .reveal .slide-background:after {
-	content: "Giovanni Ciatto — \"A cosa ci serve l'IA?\" — 2024";
+	content: "G. Ciatto — \"IA Generativa: Tecnologie ed Esempi di Utilizzo\" — 2025";
 	position: absolute;
 	bottom: 2.5%;
 	right: 6%;
