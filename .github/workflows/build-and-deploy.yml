@@ -55,12 +55,12 @@ jobs:
         run: hugo version
       - name: Remove Hugo Installer
         run: rm hugo.deb
-      # - name: Setup Ruby
-      #   uses: ruby/setup-ruby@v1.203.0
-      #   with:
-      #     working-directory: shared-slides
-      # - name: Run the preprocessor
-      #   run: shared-slides/preprocess.rb
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1.203.0
+        with:
+          working-directory: shared-slides
+      - name: Run the preprocessor
+        run: shared-slides/preprocess.rb
       - name: Build slides with hugo
         run: hugo
       - name: Transform and Inline Mermaid charts
