@@ -1,7 +1,7 @@
 # Abstract
 
 Il seminario illustra, senza pretesa di esaustività, i principali casi d'uso e le principali soluzioni tecnologie di IA generativa ad oggi disponibili, commentandone potenzialità e criticità, e la loro relazione con le linee guida di ateneo. Il fine è duplice: informare sulle possibilità attuali, ed esemplificarne l'utilizzo.
-    
+
 # Soluzioni Tecnologiche
 
 Si commentano prima le categorie sottostanti, e poi si referenziano le principali soluzioni tecnologiche.
@@ -10,8 +10,8 @@ Si commentano prima le categorie sottostanti, e poi si referenziano le principal
 - Auto-completamento: Copilot
 - Programmatiche: OpenAI platform
 - Editing di audio-visivi: Suno, Runway
-- Ispezione di materiale generato: GPTZero
-    
+- Ispezione di materiale generato: Compilatio
+
 # Casi d'uso
 
 Per economia concettuale e temporale, i casi d'uso sono organizzati in macro-categorie di utilizzo.
@@ -36,3 +36,10 @@ Per ogni macro-categoria, si vanno ad esemplificare situazioni in cui ricercator
     - Generazioni grafici / diagrammi
     - Generazioni immagini / video / audio
     - Generazione di dati (semi-)strutturati
+
+## Vincoli
+
+- no pausa
+- max 1h 45m
+- esempi su bias, allucinazioni, violazioni di privacy / proprietà intellettuale
+- mostrare impostazioni su come disabilitare l'apprendimento dalle conversazioni
