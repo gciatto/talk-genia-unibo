@@ -62,13 +62,57 @@ Algoritmi di _IA_ in grado di __generare automaticamente__ _contenuti_, e.g.:
 
 {{< image src="./fm-vs-llm.webp" width="80%" max-h="70vh" alt="Diagramma di Venn che spiega come gli LLM siano un caso particolare di modelli fondazionali " link="https://thebabar.medium.com/essential-guide-to-foundation-models-and-large-language-models-27dab58f7404" >}}
 
-
 ---
 
 ## GenAI con modello di consumo _as-a-Service_
 
 <br>
 {{< image src="./llm-concept.svg" width="100%" max-h="70vh" alt="Modello di consumo 'as a Service' per i modelli fondazionali" >}}
+
+---
+
+{{% section %}}
+
+## Ciclo di apprendimento di GenAI
+
+
+<br>
+{{< image src="./dataflow.svg" width="100%" max-h="70vh" alt="Ciclo di apprendimento di GenAI" >}}
+
+---
+
+## Alcune soluzioni tecnologiche permettono di _scegliere_ (pt. 1)
+
+{{< image src="./logo-chatgpt.svg" height="2em" >}}
+<br/>
+{{< image src="./chatgpt-settings/no-learn-1.png" width="100%" morestyle="border: 1px solid black" >}}
+
+---
+
+## Alcune soluzioni tecnologiche permettono di _scegliere_ (pt. 2)
+
+{{< image src="./logo-chatgpt.svg" height="2em" >}}
+<br/>
+{{< image src="./chatgpt-settings/no-learn-2.png" width="100%" morestyle="border: 1px solid black" >}}
+
+---
+
+## Alcune soluzioni tecnologiche permettono di _scegliere_ (pt. 3)
+
+{{< image src="./logo-chatgpt.svg" height="2em" >}}
+<br/>
+{{< image src="./chatgpt-settings/no-learn-3.png" width="100%" morestyle="border: 1px solid black" >}}
+
+
+---
+
+## Alcune soluzioni tecnologiche permettono di _scegliere_ (pt. 4)
+
+{{< image src="./logo-chatgpt.svg" height="2em" >}}
+<br/>
+{{< image src="./chatgpt-settings/no-learn-4.png" width="100%" morestyle="border: 1px solid black" >}}
+
+{{% /section %}}
 
 ---
 
@@ -104,9 +148,14 @@ Algoritmi di _IA_ in grado di __generare automaticamente__ _contenuti_, e.g.:
 - La risposta contiene __testo__ (spesso _formattato_)
     + opzionalmente: _immagini_, URL, codice
 
+{{% fragment %}}
+
 ### Talvolta...
 
 - ... prima di rispondere, l'IA fa una __ricerca__ su _Web_
+- importante per avere risultati _aggiornati_
+
+{{% /fragment %}}
 
 {{% /col %}}
 {{% /multicol %}}
@@ -127,6 +176,15 @@ Algoritmi di _IA_ in grado di __generare automaticamente__ _contenuti_, e.g.:
     + e.g., codice, testo, URL
 - L'utente __accetta__ (anche in parte) o _ignora_ il suggerimento
 - Usato anche e soprattutto per __codice__ di _programmazione_
+
+{{% fragment %}}
+
+### Attenzione...
+- ... modello di costo ad __abbonamento__ (vedi [qui](https://github.com/features/copilot/plans))
+- ... potenziali __leak__ di informazioni _sensibili_
+- ... rischio di __lock-in__ non trascurabile
+
+{{% /fragment %}}
 
 {{% /col %}}
 {{% /multicol %}}
@@ -165,18 +223,36 @@ Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, C
 ```
 {{% /col %}}
 {{% col %}}
-<br>
 
-- Permette di __programmare__ l'interazione con l'IA
-    + conseguentemente, di scrivere _software_ the usa l'IA come __servizio__
-- Permette di __parametrizzare__ l'interazione con l'IA
-    + e.g., _prompt_ parametrici, _scelta del modello_, timeout, etc.
-- Permette di __processare__ _automaticamente_ le risposte
+- __Linguaggio di programmazione__ che interagisce con IA
+    + e.g., _Python_, JavaScript
+
+- L'interazione rimane di tipo _richiesta-risposta_
+    + il __programma__ invia una _richiesta_, l'IA _risponde_
+
+{{% fragment %}}
+
+### Abilitante per 
+
+- Prompt __parametrici__, risposte processate _automaticamente_
+    + es. `list of LOCALITIES in AREA, one by line`
+        + dove `LOCALITIES` $\in$ {`cities`, `regions`, `states`}
+        + e `AREA` $\in$ {`Europe`, `Asia`, `Africa`, `America`, `Oceania`}
+        + risultati _ordinati alfabeticamente_
+
+- Scrittura __software__ che usa l'IA come __servizio__
+    + utile in _industria_ come in _ricerca_
+
+{{% /fragment %}}
+
+{{% fragment %}}
 
 ### Attenzione...
-- Modello di costo __a consumo__ (vedi [qui](https://openai.com/api/pricing/))
+- ... modello di costo __a consumo__ (vedi [qui](https://openai.com/api/pricing/))
     + proporzionale al numero di _token_ processati
     + prezzi variabili _per modello_
+
+{{% /fragment %}}
 
 {{% /col %}}
 {{% /multicol %}}
@@ -193,10 +269,58 @@ Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, C
 {{% col %}}
 <br>
 
-TBD
+- GenAI integrata in __applicazioni__ _desktop_ o _web_
+    + e.g., _Microsoft Office_ (Word, Excel, Outlook)
+
+- supporto per interfaccia __conversazionale__ _interna_
+    + conversazione intrinsecamente _contestualizzata_
+
+- IA __automatizza__ _operazioni complesse_ (interne all'app)
+    + e.g., _scrittura_ di bozze
+    + e.g., _generazione_ di formule, grafici 
+
+{{% fragment %}}
+
+### Attenzione...
+- ... modello di costo ad __abbonamento__ (vedi [qui](https://www.microsoft.com/it-it/microsoft-365/copilot?market=it#plans))
+- ... potenziali __leak__ di informazioni _sensibili_
+- ... rischio di __lock-in__ non trascurabile
+
+{{% /fragment %}}
 
 {{% /col %}}
+{{% /multicol %}} 
+
+---
+
+## Interfaccia per __editing__ di audio-visivi (e.g. _musica_)
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./logo-suno.svg" height="2em" >}}
+{{< image src="./suno/generate-song-1.png" width="100%" >}}
+{{% /col %}}
+{{% col %}}
+- Interazione __one-shot__ per generare il contenuto
+    + _input_: descrizione testuale del contenuto
+    + _output_: contenuto
+
+- L'interfaccia permette poi 
+    + _riproduzione_ del contenuto
+    + __modifica__ del contenuto
+        + e.g., _taglio_ di parti, _modifica_ di tonalità
+
+{{% fragment %}}
+
+### Esempio
+
+- ["Canzona di Bacco" (Lorenzo il Magnifico, 1490)](https://it.wikipedia.org/wiki/Il_trionfo_di_Bacco_e_Arianna_(poesia)), rock
+    + <https://suno.com/song/cce33ee7-a581-47ae-b9d1-806902e88e47>
+
+{{% /fragment %}}    
+{{% /col %}}
 {{% /multicol %}}
+
 
 ---
 
