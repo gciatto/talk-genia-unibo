@@ -116,6 +116,8 @@ Algoritmi di _IA_ in grado di __generare automaticamente__ _contenuti_, e.g.:
 
 ---
 
+{{< slide id="interfaces" >}}
+
 # Principali soluzioni __tecnologiche__
 
 ## Categorizzate per tipo di __interfaccia__
@@ -321,6 +323,237 @@ Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, C
 {{% /col %}}
 {{% /multicol %}}
 
+---
+
+{{< slide id="modes" >}}
+
+# Principali __modalità d'utilizzo__
+
+## Categorizzate per __ruolo di GenAI__
+
+### GenAI come... 
+
+* ... _motore di ricerca_: uso GenAI per __ricercare__ informazioni
+* ... _assistente di (ri)scrittura_: uso GenAI per __(ri)scrivere__ documenti
+* ... _assistente di lettura_: uso GenAI per __acquisire informazioni__ da documenti
+* ... _generatore di contenuti_: uso GenAI per __creare__ contenuti
+
+---
+
+## GenAI come _motore di ricerca_
+
+### Disclaimer
+
+> GenAI __non è__ un _motore di ricerca_ come Google, Bing, DuckDuckGo, etc.
+
+{{% fragment %}}
+
+- FM, di base, __non accedono__ al Web (__né interrogano__ qualche sorgente) prima di rispondere
+    * alcune tecnologie specifiche possono farlo, ma non c'è garanzia
+
+- FM, di base, rispondono in base a _dati_ e _conoscenze_ acquisite durante __l'allenamento__
+    * informazioni _successive_ all'ultimo ciclo di apprendimento potrebbero non essere considerate
+
+- FM possono essere immaginati come __grandi memorie__
+    * in cui (porzioni de) lo _scibile umano_ è stato _"registrato"_
+    * interrogabili tramite il _linguaggio naturale_
+
+- Le risposte di GenAI non vanno _mai_ accettate __acriticamente__, in quanto suscettibili di _allucinazioni_:
+    * __errori__: informazioni fattualmente false o inventate, riportate con sicumera
+    * __fraitendimenti__: informazioni fuori contesto o non pertinenti rispetto all'aspettativa dell'utente
+    * __bias__: di campionamento delle informazioni, di selezione del motore di ricerca, intrinseci nel linguaggio, etc.
+
+{{% /fragment %}}
+
+---
+
+## GenAI come _motore di ricerca_
+
+### Razionale
+
+<br>
+
+Possiamo considerare FM come __esperti__ su tematiche che:
+* siano temporalmente _consolidate_ $\implies$ diffidare di risposte su temi _recenti_
+* siano relativamente _popolari_ $\implies$ diffidare di risposte su temi _di nicchia_
+
+{{% fragment %}}
+
+### <br> Consigli sempre validi
+
+* verificare le __fonti__ menzionate da GenAI
+   - esistono davvero? sono aggiornate?
+
+* verificare l'__aderenza__ alle fonti
+    - la fonte dice davvero quello che GenAI ha riportato?
+
+{{% /fragment %}}
+
+---
+
+{{% section %}}
+
+{{< slide id="example-search-chatgpt-mas" >}}
+
+## GenAI come _motore di ricerca_
+
+### Esempio: esplorazione sull'argomento ["Sistemi multi-agente"](https://en.wikipedia.org/wiki/Multi-agent_system), con ChatGPT
+
+> Un sistema multi-agente (MAS) è un tipo di sistema composto da __molteplici agenti indipendenti__ (ma _interattivi_), ciascuno capace di _percepire_ il proprio ambiente e di intraprendere _azioni_. 
+> Gli agenti possono essere _modelli di IA_, programmi _software_, _robot_ e altre _entità computazionali_. 
+> _Molteplici agenti_ possono _cooperare_ o verso un _obiettivo comune_ che va oltre le capacità dei singoli agenti, con una maggiore adattabilità e robustezza.
+
+(cf. <https://www.gartner.com/en/information-technology/glossary/multiagent-systems>)
+
+<br>
+
+### Link alla conversazione completa
+
+<https://chatgpt.com/share/e/679a41e7-e164-8004-8f01-d135dde3892c>
+
+---
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./search-engine/chatgpt/mas-1.png" width="100%" max-h="90vh" >}}
+{{% /col %}}
+{{% col %}}
+- Definizione __corretta__
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./search-engine/chatgpt/mas-2.png" width="100%" max-h="90vh" >}}
+{{% /col %}}
+{{% col %}}
+- Caratteristiche __corrette__
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./search-engine/chatgpt/mas-3.png" width="100%" max-h="90vh" >}}
+{{% /col %}}
+{{% col %}}
+- Le applicazioni _menzionate_ sono __corrette__
+- _Nessuna_ garanzia di __esaustività__
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./search-engine/chatgpt/mas-4.png" width="100%" max-h="90vh" >}}
+{{% /col %}}
+{{% col %}}
+- _Nessuna_ garanzia di __esaustività__
+- Nessun riferimento per [AlphaStar](https://deepmind.google/discover/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/)
+- Interserzione con _altre nicchie_
+    + __blockchain__, __protocolli di consenso__
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./search-engine/chatgpt/mas-5.png" width="100%" max-h="90vh" >}}
+{{% /col %}}
+{{% col %}}
+- Gli aspetti _menzionati_ hanno __fondamenta solide__
+- Lista __incompleta__
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./search-engine/chatgpt/mas-6.png" width="100%" max-h="90vh" >}}
+{{% /col %}}
+{{% col %}}
+- Tutte menzioni __corrette__
+- _Nessuna_ garanzia di __esaustività__
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./search-engine/chatgpt/mas-7.png" width="100%" max-h="90vh" link="https://arxiv.org/abs/1706.02275" >}}
+{{% /col %}}
+{{% col %}}
+- [Link ad Arxiv](https://arxiv.org/abs/1706.02275) __corretto__
+- Riferimento _adeguato_ al contesto corrente
+- No riferimeto a [paper definitivo](https://dl.acm.org/doi/10.5555/3295222.3295385)
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./search-engine/chatgpt/mas-8.png" width="100%" max-h="90vh" link="https://arxiv.org/abs/1903.08082" >}}
+{{% /col %}}
+{{% col %}}
+- Riferimento _adeguato_ al contesto corrente
+- [Link ad Arxiv](https://arxiv.org/abs/1903.08082) __incoerente__ col riferimento
+- Il paper menzionato ha un __altro URL__: 
+    + <https://arxiv.org/abs/2011.05373>
+- No riferimeto a [paper definitivo](https://dl.acm.org/doi/10.5555/3495724.3497048)
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./search-engine/chatgpt/mas-9.png" width="100%" max-h="90vh" link="https://arxiv.org/abs/1906.01220" >}}
+{{% /col %}}
+{{% col %}}
+- Riferimento _**in**adeguato_ al contesto corrente
+- [Link ad Arxiv](https://arxiv.org/abs/1906.01220) __incoerente__ col riferimento
+- Il paper menzionato ha un __altro URL__: 
+    + <https://arxiv.org/abs/1809.03531>
+- No riferimeto a [paper definitivo](https://doi.org/10.1109/LRA.2019.2903261)
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./search-engine/chatgpt/mas-10.png" width="100%" max-h="90vh" link="https://arxiv.org/abs/1910.05789" >}}
+{{% /col %}}
+{{% col %}}
+- [Link ad Arxiv](https://arxiv.org/abs/1910.05789) __corretto__
+- Riferimento _adeguato_ al contesto corrente
+- No riferimeto a [paper definitivo](https://dl.acm.org/doi/10.5555/3454287.3454752)
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./search-engine/chatgpt/mas-11.png" width="100%" max-h="90vh" link="https://arxiv.org/abs/1803.08884" >}}
+{{% /col %}}
+{{% col %}}
+- [Link ad Arxiv](https://arxiv.org/abs/1803.08884) __corretto__
+- Riferimento _adeguato_ al contesto corrente
+- No riferimeto a [paper definitivo](https://dl.acm.org/doi/10.5555/3327144.3327252)
+{{% /col %}}
+{{% /multicol %}}
+
+
+{{% /section %}}
 
 ---
 
