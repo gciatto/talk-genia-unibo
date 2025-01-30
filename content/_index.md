@@ -377,9 +377,13 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 * siano temporalmente _consolidate_ $\implies$ diffidare di risposte su temi _recenti_
 * siano relativamente _popolari_ $\implies$ diffidare di risposte su temi _di nicchia_
 
-{{% fragment %}}
+---
 
-### <br> Consigli sempre validi
+## GenAI come _motore di ricerca_
+
+### Consigli sempre validi
+
+<br>
 
 * verificare le __fonti__ menzionate da GenAI
    - esistono davvero? sono aggiornate?
@@ -387,7 +391,8 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 * verificare l'__aderenza__ alle fonti
     - la fonte dice davvero quello che GenAI ha riportato?
 
-{{% /fragment %}}
+* prediligere, se possibile, la __lingua inglese__
+    - LLM sono stati sicuramente _esposti_ a più testi _inglesi_ che italiani durante l'_allenamento_
 
 ---
 
@@ -395,9 +400,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{< slide id="example-search-chatgpt-mas" >}}
 
-## GenAI come _motore di ricerca_
-
-### Esempio: esplorazione sull'argomento ["Sistemi multi-agente"](https://en.wikipedia.org/wiki/Multi-agent_system), con ChatGPT
+## Esempio: esplorazione sull'argomento ["Sistemi multi-agente"](https://en.wikipedia.org/wiki/Multi-agent_system), con _ChatGPT_
 
 > Un sistema multi-agente (MAS) è un tipo di sistema composto da __molteplici agenti indipendenti__ (ma _interattivi_), ciascuno capace di _percepire_ il proprio ambiente e di intraprendere _azioni_. 
 > Gli agenti possono essere _modelli di IA_, programmi _software_, _robot_ e altre _entità computazionali_. 
@@ -442,6 +445,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 {{% col %}}
 - Le applicazioni _menzionate_ sono __corrette__
 - _Nessuna_ garanzia di __esaustività__
+    + __bias__ di campionamento?
 {{% /col %}}
 {{% /multicol %}}
 
@@ -480,6 +484,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 {{% col %}}
 - Tutte menzioni __corrette__
 - _Nessuna_ garanzia di __esaustività__
+    + __bias__ di campionamento?
 {{% /col %}}
 {{% /multicol %}}
 
@@ -492,7 +497,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 {{% col %}}
 - [Link ad Arxiv](https://arxiv.org/abs/1706.02275) __corretto__
 - Riferimento _adeguato_ al contesto corrente
-- No riferimeto a [paper definitivo](https://dl.acm.org/doi/10.5555/3295222.3295385)
+- Riferimeto __mancante__ a [paper definitivo](https://dl.acm.org/doi/10.5555/3295222.3295385)
 {{% /col %}}
 {{% /multicol %}}
 
@@ -507,7 +512,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 - [Link ad Arxiv](https://arxiv.org/abs/1903.08082) __incoerente__ col riferimento
 - Il paper menzionato ha un __altro URL__: 
     + <https://arxiv.org/abs/2011.05373>
-- No riferimeto a [paper definitivo](https://dl.acm.org/doi/10.5555/3495724.3497048)
+- Riferimeto __mancante__ a [paper definitivo](https://dl.acm.org/doi/10.5555/3495724.3497048)
 {{% /col %}}
 {{% /multicol %}}
 
@@ -522,7 +527,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 - [Link ad Arxiv](https://arxiv.org/abs/1906.01220) __incoerente__ col riferimento
 - Il paper menzionato ha un __altro URL__: 
     + <https://arxiv.org/abs/1809.03531>
-- No riferimeto a [paper definitivo](https://doi.org/10.1109/LRA.2019.2903261)
+- Riferimeto __mancante__ a [paper definitivo](https://doi.org/10.1109/LRA.2019.2903261)
 {{% /col %}}
 {{% /multicol %}}
 
@@ -535,7 +540,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 {{% col %}}
 - [Link ad Arxiv](https://arxiv.org/abs/1910.05789) __corretto__
 - Riferimento _adeguato_ al contesto corrente
-- No riferimeto a [paper definitivo](https://dl.acm.org/doi/10.5555/3454287.3454752)
+- Riferimeto __mancante__ a [paper definitivo](https://dl.acm.org/doi/10.5555/3454287.3454752)
 {{% /col %}}
 {{% /multicol %}}
 
@@ -548,10 +553,240 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 {{% col %}}
 - [Link ad Arxiv](https://arxiv.org/abs/1803.08884) __corretto__
 - Riferimento _adeguato_ al contesto corrente
-- No riferimeto a [paper definitivo](https://dl.acm.org/doi/10.5555/3327144.3327252)
+- Riferimeto __mancante__ a [paper definitivo](https://dl.acm.org/doi/10.5555/3327144.3327252)
 {{% /col %}}
 {{% /multicol %}}
 
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+{{< slide id="example-search-scite-mas" >}}
+
+## GenAI come _motore di ricerca_ (pt. 2)
+
+> Uno strumento forse _migliore_ (ma più _costoso_) in ambito accademico, 
+> <br> potrebbe essere [Scite](https://scite.ai)
+
+- ![](./logo-scite.svg) è un __database bibliografico__ che indicizza le citazioni nel contesto (cf. __"Smart Citation Index"__)
+    * citazioni classificate come _supportive_, _mentioning_, o _contrasting_
+    * fonte: ["Evaluating the Accuracy of scite, a Smart Citation Index"](https://doi.org/10.18060/26528)
+
+- Fornisce un LLM, [Scite Assistant](https://scite.ai/assistant) ha accesso al database bibliografico
+    * interfaccia __conversazionale__
+    * _riferimenti bibliografici_ eventualmente presenti nelle risposte vengono arricchiti con __metadati__
+        + es. link all'articolo, evidenziazione del testo citato, etc.
+
+---
+
+## Interfaccia di [Scite Assistant](https://scite.ai/assistant)
+
+
+![](./homepage-scite.png)
+
+---
+
+## Esempio: esplorazione sull'argomento ["Sistemi multi-agente"](https://en.wikipedia.org/wiki/Multi-agent_system), con _Scite_
+
+{{< image src="./search-engine/scite/mas-1.svg" width="100%" max-h="90vh" >}}
+
+- Riferimenti bibliografici con _ipertesti_, e _metadati_
+- Nella parte _destra_, sono riportati i _dettagli_ dei riferimenti bibliografici
+- __Bias__ di campionamento
+
+---
+
+{{< image src="./search-engine/scite/mas-2.png" width="100%" max-h="90vh" >}}
+
+- _Non_ fa davvero riferimento alle parole chiave menzionate in precedenza
+- __Bias__ di campionamento
+
+{{% /section %}}
+
+---
+
+## GenAI come _assistente di (ri)scrittura_
+
+### Razionale
+
+<br>
+
+- _Interrogare_ GenAI per generare testo da riusare __verbatim__ è un approccio _naive_
+    + ci si affida in toto a GenAI, col rischio che sfuggano _allucinazioni_
+    + si rischia di ereditare _bias_ ed _errori semantici_ senza accorgersene
+
+{{% fragment %}}
+
+> - Approccio più _furbo_: chiedere a GenAI di __rielaborare__ un testo grezzo o parziale
+>    + es. una lista di _cose da dire_, argomenti da trattare, etc.
+>    + _controllo_ e _responsabilità_ del __filo del discorso__ rimane sull'utente
+
+{{% /fragment %}}
+
+---
+
+## GenAI come _assistente di (ri)scrittura_
+
+### Consigli sempre validi
+
+<br> 
+
+* tenere il _controllo_ di __cosa__ si vuole dire nel testo
+* farsi _assistere_ riguardo alla __forma__ del testo
+* __rivedere__ il testo prodotto per _errori_, _incongruenze_, _allucinazioni_
+    + chiedere opportunamente _variazioni_ fino a soddisfazione
+
+---
+
+## Esempio: scrittura _abstract_ di una _SRL_ inerente ["IA Neuro-Simbolica"](https://en.wikipedia.org/wiki/Neuro-symbolic_AI), con _ChatGPT_
+
+> IA __Neuro-Simbolica__: la combinazione di metodi _simbolici_ ["IA classica", NdA] con metodi basati su _reti neurali_ artificiali.
+
+(cf. [Neuro-symbolic artificial intelligence](https://ip.ios.semcs.net/articles/ai-communications/aic210084))
+
+> Una __revisione sistematica della letteratura__ (_SLR_) è un metodo accademico indipendente che mira a identificare e valutare tutta la _letteratura_ rilevante su un _argomento_ al fine di trarre conclusioni sulla questione in esame. 
+> [...] 
+> Viene seguito un _approccio metodologico formale_ per ridurre le distorsioni causate da una selezione eccessivamente restrittiva della letteratura disponibile e per aumentare l'_affidabilità_ della letteratura selezionata.
+
+(cf. <https://www.tu.berlin/en/wm/bibliothek/research-teaching/systematic-literature-reviews/description-of-the-systematic-literature-review-method>)
+
+---
+
+{{% section %}}
+
+## Approccio 1 ({{% color "red" %}}Sconsigliato{{% /color %}}): Senza traccia
+
+(link alla [conversazione completa](https://chatgpt.com/share/e/679b94b4-93e4-8004-9fae-457ba9f4bf07))
+
+{{< image src="./rewriting/bad/nesy-slr-1.png" width="100%" max-h="90vh" >}}
+
+---
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./rewriting/bad/nesy-slr-2.png" width="100%" max-h="90vh" >}}
+{{% /col %}}
+{{% col %}}
+1. Frase generica, incontestabile, corretta
+2. {{% color "green" %}}Obietto dell'articolo{{% /color %}}
+3. {{% color "gold" %}}Obiettivo generico, sempre buono per rassegna{{% /color %}}
+4. {{% color "red" %}}Contributo specifico: suggerisce struttura articolo{{% /color %}}
+5. {{% color "gold" %}}Contributo generico{{% /color %}}
+6. {{% color "red" %}}Contributo specifico{{% /color %}}
+7. Frase di chiusura generica
+
+{{% fragment %}}
+> Uso sostanziale di GenIA
+{{% /fragment %}}
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+## È possibile richiedere modifiche
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./rewriting/bad/nesy-slr-3.png" width="100%" max-h="90vh" >}}
+{{% /col %}}
+{{% col %}}
+{{< image src="./rewriting/bad/nesy-slr-4.png" width="100%" max-h="90vh" >}}
+{{% /col %}}
+{{% /multicol %}}
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## Approccio 2 (_Consigliato_): Con traccia
+
+(link alla [conversazione completa](https://chatgpt.com/share/e/679b94c5-17d0-8004-9b4a-6687418f3569))
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./rewriting/nesy-slr-1.png" width="100%" max-h="90vh" >}}
+{{% /col %}}
+{{% col %}}
+### La traccia
+
+1. {{% color "green" %}}Frase d'aggancio{{% /color %}}
+2. {{% color "lime" %}}Obiettivo dell'articolo{{% /color %}}
+3. {{% color "green" %}}Descrizione della metodologia{{% /color %}}
+4. {{% color "lime" %}}Dichiarazione contributi{{% /color %}}
+5. {{% color "green" %}}Indicazione dell'audicence inteso{{% /color %}}
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./rewriting/nesy-slr-2.png" width="100%" max-h="90vh" >}}
+{{% /col %}}
+{{% col %}}
+### Analisi del risultato
+
+1. {{% color "green" %}}Frase d'aggancio{{% /color %}}
+2. {{% color "gold" %}}Libera interpretazione di GenIA{{% /color %}}
+2. {{% color "lime" %}}Obiettivo dell'articolo{{% /color %}}
+3. {{% color "green" %}}Descrizione della metodologia{{% /color %}}
+4. {{% color "lime" %}}Dichiarazione contributi{{% /color %}}
+5. {{% color "green" %}}Indicazione dell'audicence inteso{{% /color %}}
+
+> Uso _non_ sostanziale di GenIA
+{{% /col %}}
+{{% /multicol %}}
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+### Altri tipi di supporto alla scrittura
+
+## Supporto alla _traduzione automatica_ (pt. 1)
+
+> Meglio strumenti consolidati (e.g. __Google Translate__) o _modelli fondazionali_ (e.g. __GPT__)?
+
+(posto che la traduzione fatta da esperti _umani_ sarà sempre _migliore_)
+
+---
+
+### Altri tipi di supporto alla scrittura
+
+## Supporto alla _traduzione automatica_ (pt. 2)
+
+Chiediamo a __Scite Assistant__:
+
+{{< image src="./google-translate-vs-chat-gpt.gif" width="100%" max-h="90vh" >}}
+
+---
+
+### Altri tipi di supporto alla scrittura
+
+## Supporto alla _traduzione automatica_ (pt. 3)
+
+{{< image src="./google-translate.png" width="100%" max-h="90vh" >}}
+<br>
+
+__TL;DR:__ Google Translate è _preferibile_ laddove sia richiesta _precisione_
+
+---
+
+### Altri tipi di supporto alla scrittura
+
+## Supporto alla _traduzione automatica_ (pt. 4)
+
+{{< image src="./translate-copilot.gif" width="100%" max-h="90vh" >}}
+<br>
+
+__TL;DR:__ GPT _usabile_ laddove il __contesto__ possa aiutare la traduzione
 
 {{% /section %}}
 
