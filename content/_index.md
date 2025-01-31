@@ -871,7 +871,7 @@ __TL;DR:__ GPT _usabile_ laddove il __contesto__ possa aiutare la traduzione
 
 ---
 
-## Esempio: ispezione dalla traccia della __prima prova di Italiano__, _maturità 2024_
+## Esempio: estrazione dalla traccia della __prima prova di Italiano__, _maturità 2024_
 
 Si veda file [P000_ORD24.pdf](https://www.istruzione.it/esame_di_stato/202324/Italiano/Ordinaria/P000_ORD24.pdf) --- 7 pagine, ben dense
 
@@ -900,6 +900,31 @@ Si veda file [P000_ORD24.pdf](https://www.istruzione.it/esame_di_stato/202324/It
 {{% /multicol %}}
 
 {{% /section %}}
+
+---
+
+## Esempio: __sintesi__ di documento (_Policy di Ateno su GenAI_)
+
+Si veda file [Policy-Generative-AI.pdf](www.unibo.it/it/allegati/policy-per-un-uso-etico-e-responsabile-dell2019intelligenza-artificiale-generativa-nelle-attivita-di-didattica-e-ricerca/@@download/file/Policy-Generative-AI.pdf)
+
+> TBD 
+
+---
+
+## Esempio: __confronto__ di documenti _diversi_
+
+Confrontiamo due articoli scientifici:
+
+{{% multicol %}}
+{{% col class="col-6" %}}
+<https://arxiv.org/abs/2404.04108>
+<embed src="./2404.04108v2.pdf" width="100%" height="700px" />
+{{% /col %}}
+{{% col class="col-6" %}}
+<https://aclanthology.org/2023.findings-acl.309/>
+<embed src="./2023.findings-acl.309.pdf" width="100%" height="700px" />
+{{% /col %}}
+{{% /multicol %}}
 
 ---
 
