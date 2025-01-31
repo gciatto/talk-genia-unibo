@@ -418,7 +418,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-1.png" width="100%" max-h="90vh" >}}
+{{< image src="./search-engine/chatgpt/mas-1.png" width="100%" max-h="80vh" >}}
 {{% /col %}}
 {{% col %}}
 - Definizione __corretta__
@@ -429,7 +429,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-2.png" width="100%" max-h="90vh" >}}
+{{< image src="./search-engine/chatgpt/mas-2.png" width="100%" max-h="80vh" >}}
 {{% /col %}}
 {{% col %}}
 - Caratteristiche __corrette__
@@ -440,7 +440,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-3.png" width="100%" max-h="90vh" >}}
+{{< image src="./search-engine/chatgpt/mas-3.png" width="100%" max-h="80vh" >}}
 {{% /col %}}
 {{% col %}}
 - Le applicazioni _menzionate_ sono __corrette__
@@ -453,7 +453,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-4.png" width="100%" max-h="90vh" >}}
+{{< image src="./search-engine/chatgpt/mas-4.png" width="100%" max-h="80vh" >}}
 {{% /col %}}
 {{% col %}}
 - _Nessuna_ garanzia di __esaustività__
@@ -467,7 +467,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-5.png" width="100%" max-h="90vh" >}}
+{{< image src="./search-engine/chatgpt/mas-5.png" width="100%" max-h="80vh" >}}
 {{% /col %}}
 {{% col %}}
 - Gli aspetti _menzionati_ hanno __fondamenta solide__
@@ -479,7 +479,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-6.png" width="100%" max-h="90vh" >}}
+{{< image src="./search-engine/chatgpt/mas-6.png" width="100%" max-h="80vh" >}}
 {{% /col %}}
 {{% col %}}
 - Tutte menzioni __corrette__
@@ -492,7 +492,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-7.png" width="100%" max-h="90vh" link="https://arxiv.org/abs/1706.02275" >}}
+{{< image src="./search-engine/chatgpt/mas-7.png" width="100%" max-h="80vh" link="https://arxiv.org/abs/1706.02275" >}}
 {{% /col %}}
 {{% col %}}
 - [Link ad Arxiv](https://arxiv.org/abs/1706.02275) __corretto__
@@ -505,7 +505,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-8.png" width="100%" max-h="90vh" link="https://arxiv.org/abs/1903.08082" >}}
+{{< image src="./search-engine/chatgpt/mas-8.png" width="100%" max-h="80vh" link="https://arxiv.org/abs/1903.08082" >}}
 {{% /col %}}
 {{% col %}}
 - Riferimento _adeguato_ al contesto corrente
@@ -520,7 +520,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-9.png" width="100%" max-h="90vh" link="https://arxiv.org/abs/1906.01220" >}}
+{{< image src="./search-engine/chatgpt/mas-9.png" width="100%" max-h="80vh" link="https://arxiv.org/abs/1906.01220" >}}
 {{% /col %}}
 {{% col %}}
 - Riferimento _**in**adeguato_ al contesto corrente
@@ -535,7 +535,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-10.png" width="100%" max-h="90vh" link="https://arxiv.org/abs/1910.05789" >}}
+{{< image src="./search-engine/chatgpt/mas-10.png" width="100%" max-h="80vh" link="https://arxiv.org/abs/1910.05789" >}}
 {{% /col %}}
 {{% col %}}
 - [Link ad Arxiv](https://arxiv.org/abs/1910.05789) __corretto__
@@ -548,7 +548,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-11.png" width="100%" max-h="90vh" link="https://arxiv.org/abs/1803.08884" >}}
+{{< image src="./search-engine/chatgpt/mas-11.png" width="100%" max-h="80vh" link="https://arxiv.org/abs/1803.08884" >}}
 {{% /col %}}
 {{% col %}}
 - [Link ad Arxiv](https://arxiv.org/abs/1803.08884) __corretto__
@@ -591,7 +591,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 ## Esempio: esplorazione sull'argomento ["Sistemi multi-agente"](https://en.wikipedia.org/wiki/Multi-agent_system), con _Scite_
 
-{{< image src="./search-engine/scite/mas-1.svg" width="100%" max-h="90vh" >}}
+{{< image src="./search-engine/scite/mas-1.svg" width="100%" max-h="80vh" >}}
 
 - Riferimenti bibliografici con _ipertesti_, e _metadati_
 - Nella parte _destra_, sono riportati i _dettagli_ dei riferimenti bibliografici
@@ -599,7 +599,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 ---
 
-{{< image src="./search-engine/scite/mas-2.png" width="100%" max-h="90vh" >}}
+{{< image src="./search-engine/scite/mas-2.png" width="100%" max-h="80vh" >}}
 
 - _Non_ fa davvero riferimento alle parole chiave menzionate in precedenza
 - __Bias__ di campionamento
@@ -661,13 +661,13 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 (link alla [conversazione completa](https://chatgpt.com/share/e/679b94b4-93e4-8004-9fae-457ba9f4bf07))
 
-{{< image src="./rewriting/bad/nesy-slr-1.png" width="100%" max-h="90vh" >}}
+{{< image src="./rewriting/bad/nesy-slr-1.png" width="100%" max-h="80vh" >}}
 
 ---
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./rewriting/bad/nesy-slr-2.png" width="100%" max-h="90vh" >}}
+{{< image src="./rewriting/bad/nesy-slr-2.png" width="100%" max-h="80vh" >}}
 {{% /col %}}
 {{% col %}}
 1. Frase generica, incontestabile, corretta
@@ -690,10 +690,10 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./rewriting/bad/nesy-slr-3.png" width="100%" max-h="90vh" >}}
+{{< image src="./rewriting/bad/nesy-slr-3.png" width="100%" max-h="80vh" >}}
 {{% /col %}}
 {{% col %}}
-{{< image src="./rewriting/bad/nesy-slr-4.png" width="100%" max-h="90vh" >}}
+{{< image src="./rewriting/bad/nesy-slr-4.png" width="100%" max-h="80vh" >}}
 {{% /col %}}
 {{% /multicol %}}
 
@@ -709,7 +709,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./rewriting/nesy-slr-1.png" width="100%" max-h="90vh" >}}
+{{< image src="./rewriting/nesy-slr-1.png" width="100%" max-h="80vh" >}}
 {{% /col %}}
 {{% col %}}
 ### La traccia
@@ -726,7 +726,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./rewriting/nesy-slr-2.png" width="100%" max-h="90vh" >}}
+{{< image src="./rewriting/nesy-slr-2.png" width="100%" max-h="80vh" >}}
 {{% /col %}}
 {{% col %}}
 ### Analisi del risultato
@@ -764,7 +764,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 Chiediamo a __Scite Assistant__:
 
-{{< image src="./google-translate-vs-chat-gpt.gif" width="100%" max-h="90vh" >}}
+{{< image src="./rewriting/google-translate-vs-chat-gpt.gif" width="100%" max-h="80vh" >}}
 
 ---
 
@@ -772,7 +772,7 @@ Chiediamo a __Scite Assistant__:
 
 ## Supporto alla _traduzione automatica_ (pt. 3)
 
-{{< image src="./google-translate.png" width="100%" max-h="90vh" >}}
+{{< image src="./rewriting/google-translate.png" width="100%" max-h="80vh" >}}
 <br>
 
 __TL;DR:__ Google Translate è _preferibile_ laddove sia richiesta _precisione_
@@ -783,10 +783,121 @@ __TL;DR:__ Google Translate è _preferibile_ laddove sia richiesta _precisione_
 
 ## Supporto alla _traduzione automatica_ (pt. 4)
 
-{{< image src="./translate-copilot.gif" width="100%" max-h="90vh" >}}
+{{< image src="./rewriting/translate-copilot.gif" width="100%" max-h="80vh" >}}
+
 <br>
 
 __TL;DR:__ GPT _usabile_ laddove il __contesto__ possa aiutare la traduzione
+
+---
+
+### Altri tipi di supporto alla scrittura
+
+## Supporto alla _traduzione automatica_ (pt. 5)
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./rewriting/translate-with-style.png" width="100%" max-h="80vh" >}}
+{{% /col %}}
+{{% col class="col-6" %}}
+- Richiesta di _transposizione_ in lingua con uno __stile specifico__
+- Utile per migliorare la _qualità_ scrittura _in lingua_
+{{% /col %}}
+{{% /multicol %}}
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+### Altri tipi di supporto alla scrittura
+
+## Supporto alla _generazione di codice_ di programmazione
+
+{{< image src="./rewriting/bubble-sort-generate.gif" width="100%" max-h="80vh" >}}
+
+(codice suggerito __inefficiente__, ma _funzionante_)
+
+---
+
+### Altri tipi di supporto alla scrittura
+
+## Supporto alla _documentazione del codice_ di programmazione
+
+{{< image src="./rewriting/bubble-sort-explain.gif" width="100%" max-h="80vh" >}}
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## GenAI come _assistente di lettura_
+
+### Razionale
+
+<br>
+
+- GenAI può essere usato per _acquisire_ informazioni da __documenti testuali__ [senza leggerli integralmente]
+    + e.g., _estrarre highlights_ da un testo, _sintetizzare_ un testo, etc.
+
+- La stessa idea si può applicare a __contenuti multimediali__
+    + e.g., _estrarre highlights_ da un video, _trascrivere_ un audio, etc.
+
+{{% fragment %}}
+
+> Il testo [o contenuto] da cui estrarre informazioni __deve essere fornito__ dall'_utente_
+- _Non presumere_ che GenAI conosca il testo [o contenuto] in questione 
+
+{{% /fragment %}}
+
+---
+
+## GenAI come _assistente di lettura_
+
+### Consigli sempre validi
+
+- Al crescere della _lunghezza_ del testo, aumenta la probabilità di __allucinazioni__
+    + idem per _durata_ dei contenuti multimediali
+
+- __Verificiare__ che il testo [o contenuto] fornito _non_ contenga _informazioni_ __sensibili__ o __riservate__
+
+- __Verificare__ di avere il _diritto_ di fornire a _terzi_ [copie de] il contenuto
+
+- Tenere presente la possibilità di inevitabili __distorsioni__
+    + _allucinazioni_ $\rightarrow$ l'estrazione potrebbe inventare informazioni non presenti nell'originale
+    + _lacune_ $\rightarrow$ elementi importanti portebbero non essere estratti
+
+---
+
+## Esempio: ispezione dalla traccia della __prima prova di Italiano__, _maturità 2024_
+
+Si veda file [P000_ORD24.pdf](https://www.istruzione.it/esame_di_stato/202324/Italiano/Ordinaria/P000_ORD24.pdf) --- 7 pagine, ben dense
+
+{{< image src="./reading/high-school-exam-1.png" width="100%" max-h="80vh" >}}
+
+---
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./reading/high-school-exam-2.png" width="100%" max-h="80vh" >}}
+{{% /col %}}
+{{% col %}}
+<embed src="./P000_ORD24.pdf" width="100%" height="90%" />
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./reading/high-school-exam-3a.png" width="100%" max-h="80vh" >}}
+{{% /col %}}
+{{% col %}}
+{{< image src="./reading/P000_ORD24-pag2.png" width="100%" max-h="80vh" >}}
+{{% /col %}}
+{{% /multicol %}}
 
 {{% /section %}}
 
