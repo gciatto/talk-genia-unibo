@@ -129,6 +129,8 @@ Algoritmi di _IA_ in grado di __generare automaticamente__ _contenuti_, e.g.:
 - _Editing di audio-visivi_: e.g. [Suno](https://suno.com/), [Runway](https://runwayml.com/)
 <!-- - _Ispezione di materiale generato_: e.g. [GPTZero](https://gptzero.me/), [ZeroGPT](https://www.zerogpt.com/) -->
 
+{{% color "red" %}}Lista non esaustiva!{{% /color %}}
+
 ---
 
 ## Interfaccia __conversazionale__
@@ -1031,19 +1033,80 @@ Dicembre 2024:
 
 ---
 
-## Esempio: supporto alla _revisione_ di un documento
+{{% section %}}
 
-### Approccio 1 ({{% color "red" %}}Sconsigliato{{% /color %}}): Delega del giudizio
+## Esempio: identificazione di _plagio_ (potenziale) in un documento
 
-TBD
+> - Per questo caso d'uso, __GenAI__ <u>non</u> è lo strumento migliore
+> - GenAI può essere usato per _identificare_ __similitudini concettuali__ tra testi
+> - Esistono strumenti _più adeguati_, {{% color "red" %}}non basati su GenAI{{% /color %}}
+
+- e.g. [Compilatio](https://www.compilatio.net/it) software ad hoc per __l'identificazione del plagio__
+    + personale UniBO può usufruire gratuitamente
+
+---
+
+{{< image src="./reading/comparison/similarity-1.png" width="100%" max-h="80vh" >}}
+
+---
+
+{{< image src="./reading/comparison/compilatio.png" width="100%" max-h="80vh" >}}
+
+---
+
+## Esempio: analisi della _novelty_ di un documento
+
+{{< image src="./reading/comparison/similarity-2.png" width="100%" max-h="80vh" >}}
+
+---
+
+{{< image src="./reading/comparison/similarity-3.png" width="100%" max-h="80vh" >}}
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## Esempio: supporto alla _revisione paritaria_ di un documento ({{% color "red" %}}sconsigliabile!{{% /color %}})
+
+{{< image src="./reading/review/review-1.png" width="100%" max-h="80vh" >}}
+
+---
+
+{{< image src="./reading/review/review-2.png" width="100%" max-h="80vh" >}}
+
+---
+
+{{< image src="./reading/review/review-3.png" width="100%" max-h="80vh" >}}
 
 ---
 
 ## Esempio: supporto alla _revisione_ di un documento
 
-### Approccio 2 ({{% color "green" %}}Accettabile{{% /color %}})
+### Aspetti {{% color "red" %}}critici{{% /color %}}
 
-TBD
+<br>
+
+- Upload del paper potrebbe comportare __violazione__ della __riservatezza__
+    + ricordarsi _escludere_ il documento dai dati usabili per _futuri cicli di allenamento_
+
+- Si sta __delegando__ a GenAI un processo _critico_, che ha un impatto su _altre persone_ e sulla _comunità_
+    + la _responsabilità_ rimane sul revisore umano
+
+- ChatGPT tende ad essere __accondiscendente__ e _positivo_, riportando punti di forza / limitazioni riportati nel documento stesso
+    + questo è un bias, che potrebbe rendere la revisione troppo _superficiale_
+    + altri LLM potrebbero avere lo _stesso bias_, o _bias opposti_
+
+- Si può richiedere una revisione __aggressiva__ o __critica__ ... spostando il bias verso la _negatività_
+
+{{% fragment %}}
+
+> Meglio _limitarsi_ ad __ispezionare__ il documento con GenAI e _farsi un'idea_ prima di esprimere un __giudizio__
+
+{{% /fragment %}}
+
+{{% /section %}}
 
 ---
 
