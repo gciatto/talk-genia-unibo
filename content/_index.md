@@ -938,7 +938,7 @@ Si veda file [Policy-Generative-AI.pdf](www.unibo.it/it/allegati/policy-per-un-u
 
 ## Esempio: __confronto__ di documenti _diversi_
 
-Confrontiamo due articoli scientifici:
+Confrontiamo due __articoli scientifici__ (su _tema simile_): 
 
 {{% multicol %}}
 {{% col class="col-6" %}}
@@ -953,9 +953,81 @@ Confrontiamo due articoli scientifici:
 
 ---
 
+## Esempio: __confronto__ di documenti _diversi_
+
+### Idea di fondo (da <https://arxiv.org/abs/2404.04108>)
+
+<br>
+
+![](./reading/comparison/llm4kg.svg)
+
+---
+
+## Esempio: __confronto__ di documenti _diversi_
+
+### Idea di fondo (da <https://aclanthology.org/2023.findings-acl.309/>)
+
+<br>
+
+![](./reading/comparison/bertnet.png)
+
+---
+
+{{< image src="./reading/comparison/llm4kg-vs-harvest-1.png" width="100%" max-h="80vh" >}}
+
+---
+
+{{< image src="./reading/comparison/llm4kg-vs-harvest-2.png" width="100%" max-h="80vh" >}}
+
+---
+
+{{< image src="./reading/comparison/llm4kg-vs-harvest-3.png" width="100%" max-h="80vh" >}}
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
 ## Esempio: __confronto__ di _versioni diverse_ dello _stesso_ documento
 
-TBD
+> - Per questo caso d'uso, __GenAI__ <u>non</u> è lo strumento migliore
+> - Esistono strumenti _più adeguati_, {{% color "red" %}}non basati su GenAI{{% /color %}}
+
+- e.g. [Git](https://git-scm.com/) + [GitHub](https://github.com/) per __versionare__ documenti testuali, e _collaborare_ alla loro stesura _concorrente_
+
+- e.g. [Draftable](https://www.draftable.com/compare) per __comparare__ documenti Word, _PDF_, etc.
+
+---
+
+## Esempio: __confronto__ di _versioni diverse_ dello _stesso_ documento
+
+Comparatiamo due diverse versioni di <https://arxiv.org/abs/2404.04108>
+
+{{% multicol %}}
+{{% col class="col-6" %}}
+Aprile 2024: 
+<https://arxiv.org/abs/2404.04108v1>
+<embed src="https://arxiv.org/pdf/2404.04108v1" width="100%" height="700px" />
+{{% /col %}}
+{{% col class="col-6" %}}
+Dicembre 2024: 
+<https://arxiv.org/abs/2404.04108v2>
+<embed src="https://arxiv.org/pdf/2404.04108v2" width="100%" height="700px" />
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+{{< image src="./reading/comparison/draftable.png" width="100%" max-h="80vh" link="https://draftable.com/compare/zRbeSplWOCxS" >}}
+
+---
+
+<https://draftable.com/compare/zRbeSplWOCxS>
+
+<iframe src="https://draftable.com/compare/zRbeSplWOCxS" style="border:none;overflow:hidden;" scrolling="no" frameborder="0" allowfullscreen width="100%" height="800px"></iframe>
+
+{{% /section %}}
 
 ---
 
@@ -997,16 +1069,6 @@ TBD
 
 ## GenAI come assistente per _l'elaborazione dei dati_
 
-### Consigli sempre validi
-
-<br>
-
-TBD
-
----
-
-## GenAI come assistente per _l'elaborazione dei dati_
-
 ### Disclaimer
 
 <br>
@@ -1016,6 +1078,16 @@ TBD
 
 - Tuttavia, FM posssono generare __codice di programmazione__ (dietro le quinte) per _elaborare_ i dati
     + _compensando_ quindi la _limitata_ capacità di analisi dei LLM
+
+---
+
+## GenAI come assistente per _l'elaborazione dei dati_
+
+### Consigli sempre validi
+
+<br>
+
+TBD
 
 ---
 
