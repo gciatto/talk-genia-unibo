@@ -139,6 +139,7 @@
 <li><em>Editing di audio-visivi</em>: e.g. <a href="https://suno.com/">Suno</a>, <a href="https://runwayml.com/">Runway</a></li>
 </ul>
 <!-- - _Ispezione di materiale generato_: e.g. [GPTZero](https://gptzero.me/), [ZeroGPT](https://www.zerogpt.com/) -->
+<p><span style="color: red;">Lista non esaustiva!</span></p>
 </section><section>
 <h2 id="interfaccia-__conversazionale__">Interfaccia <strong>conversazionale</strong></h2>
 
@@ -1035,13 +1036,80 @@ Viene seguito un <em>approccio metodologico formale</em> per ridurre le distorsi
 
 </section>
 </section><section>
-<h2 id="esempio-supporto-alla-_revisione_-di-un-documento">Esempio: supporto alla <em>revisione</em> di un documento</h2>
-<h3 id="approccio-1-span-stylecolor-redsconsigliatospan-delega-del-giudizio">Approccio 1 (<span style="color: red;">Sconsigliato</span>): Delega del giudizio</h3>
-<p>TBD</p>
+
+
+<section data-shortcode-section="">
+<h2 id="esempio-identificazione-di-_plagio_-potenziale-in-un-documento">Esempio: identificazione di <em>plagio</em> (potenziale) in un documento</h2>
+<blockquote>
+<ul>
+<li>Per questo caso d’uso, <strong>GenAI</strong> <u>non</u> è lo strumento migliore</li>
+<li>GenAI può essere usato per <em>identificare</em> <strong>similitudini concettuali</strong> tra testi</li>
+<li>Esistono strumenti <em>più adeguati</em>, <span style="color: red;">non basati su GenAI</span></li>
+</ul>
+</blockquote>
+<ul>
+<li>e.g. <a href="https://www.compilatio.net/it">Compilatio</a> software ad hoc per <strong>l’identificazione del plagio</strong>
+<ul>
+<li>personale UniBO può usufruire gratuitamente</li>
+</ul>
+</li>
+</ul>
 </section><section>
-<h2 id="esempio-supporto-alla-_revisione_-di-un-documento-1">Esempio: supporto alla <em>revisione</em> di un documento</h2>
-<h3 id="approccio-2-span-stylecolor-greenaccettabilespan">Approccio 2 (<span style="color: green;">Accettabile</span>)</h3>
-<p>TBD</p>
+<img src="./reading/comparison/similarity-1.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</section><section>
+<img src="./reading/comparison/compilatio.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</section><section>
+<h2 id="esempio-analisi-della-_novelty_-di-un-documento">Esempio: analisi della <em>novelty</em> di un documento</h2>
+<img src="./reading/comparison/similarity-2.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</section><section>
+<img src="./reading/comparison/similarity-3.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+
+</section>
+</section><section>
+
+
+<section data-shortcode-section="">
+<h2 id="esempio-supporto-alla-_revisione-paritaria_-di-un-documento-span-stylecolor-redsconsigliabilespan">Esempio: supporto alla <em>revisione paritaria</em> di un documento (<span style="color: red;">sconsigliabile!</span>)</h2>
+<img src="./reading/review/review-1.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</section><section>
+<img src="./reading/review/review-2.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</section><section>
+<img src="./reading/review/review-3.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</section><section>
+<h2 id="esempio-supporto-alla-_revisione_-di-un-documento">Esempio: supporto alla <em>revisione</em> di un documento</h2>
+<h3 id="aspetti-span-stylecolor-redcriticispan">Aspetti <span style="color: red;">critici</span></h3>
+<br>
+<ul>
+<li>
+<p>Upload del paper potrebbe comportare <strong>violazione</strong> della <strong>riservatezza</strong></p>
+<ul>
+<li>ricordarsi <em>escludere</em> il documento dai dati usabili per <em>futuri cicli di allenamento</em></li>
+</ul>
+</li>
+<li>
+<p>Si sta <strong>delegando</strong> a GenAI un processo <em>critico</em>, che ha un impatto su <em>altre persone</em> e sulla <em>comunità</em></p>
+<ul>
+<li>la <em>responsabilità</em> rimane sul revisore umano</li>
+</ul>
+</li>
+<li>
+<p>ChatGPT tende ad essere <strong>accondiscendente</strong> e <em>positivo</em>, riportando punti di forza / limitazioni riportati nel documento stesso</p>
+<ul>
+<li>questo è un bias, che potrebbe rendere la revisione troppo <em>superficiale</em></li>
+<li>altri LLM potrebbero avere lo <em>stesso bias</em>, o <em>bias opposti</em></li>
+</ul>
+</li>
+<li>
+<p>Si può richiedere una revisione <strong>aggressiva</strong> o <strong>critica</strong> … spostando il bias verso la <em>negatività</em></p>
+</li>
+</ul>
+<span class="fragment ">
+  <blockquote>
+<p>Meglio <em>limitarsi</em> ad <strong>ispezionare</strong> il documento con GenAI e <em>farsi un’idea</em> prima di esprimere un <strong>giudizio</strong></p>
+</blockquote>
+</span>
+
+</section>
 </section><section>
 <h2 id="genai-come-assistente-per-_lelaborazione-dei-dati_">GenAI come assistente per <em>l’elaborazione dei dati</em></h2>
 <h3 id="razionale-2">Razionale</h3>
