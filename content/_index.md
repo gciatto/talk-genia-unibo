@@ -875,13 +875,13 @@ __TL;DR:__ GPT _usabile_ laddove il __contesto__ possa aiutare la traduzione
 
 Si veda file [P000_ORD24.pdf](https://www.istruzione.it/esame_di_stato/202324/Italiano/Ordinaria/P000_ORD24.pdf) --- 7 pagine, ben dense
 
-{{< image src="./reading/high-school-exam-1.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/inspection/high-school-exam-1.png" width="100%" max-h="80vh" >}}
 
 ---
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./reading/high-school-exam-2.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/inspection/high-school-exam-2.png" width="100%" max-h="80vh" >}}
 {{% /col %}}
 {{% col %}}
 <embed src="./P000_ORD24.pdf" width="100%" height="90%" />
@@ -892,10 +892,10 @@ Si veda file [P000_ORD24.pdf](https://www.istruzione.it/esame_di_stato/202324/It
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./reading/high-school-exam-3a.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/inspection/high-school-exam-3a.png" width="100%" max-h="80vh" >}}
 {{% /col %}}
 {{% col %}}
-{{< image src="./reading/P000_ORD24-pag2.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/inspection/P000_ORD24-pag2.png" width="100%" max-h="80vh" >}}
 {{% /col %}}
 {{% /multicol %}}
 
