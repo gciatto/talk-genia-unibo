@@ -906,13 +906,35 @@ Si veda file [P000_ORD24.pdf](https://www.istruzione.it/esame_di_stato/202324/It
 
 ---
 
+{{% section %}}
+
 ## Esempio: __sintesi__ di documento (_Policy di Ateno su GenAI_)
 
 Si veda file [Policy-Generative-AI.pdf](www.unibo.it/it/allegati/policy-per-un-uso-etico-e-responsabile-dell2019intelligenza-artificiale-generativa-nelle-attivita-di-didattica-e-ricerca/@@download/file/Policy-Generative-AI.pdf)
 
-> TBD 
+{{< image src="./reading/synthesis/policy-1.png" width="100%" max-h="80vh" >}}
 
 ---
+
+{{< image src="./reading/synthesis/policy-2.png" width="100%" max-h="80vh" >}}
+
+---
+
+{{< image src="./reading/synthesis/policy-3.png" width="100%" max-h="80vh" >}}
+
+--- 
+
+{{< image src="./reading/synthesis/policy-4.png" width="100%" max-h="80vh" >}}
+
+---
+
+{{< image src="./reading/synthesis/policy-5.png" width="100%" max-h="80vh" >}}
+
+{{% /section %}}
+
+---
+
+{{% section %}}
 
 ## Esempio: __confronto__ di documenti _diversi_
 
