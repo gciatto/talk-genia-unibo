@@ -1161,7 +1161,19 @@ Dicembre 2024:
 
 <br>
 
-TBD
+- Prima di caricare dati, __verificare__ che non contengano _informazioni sensibili_ o _riservate_, e di avere il _diritto_ di fornirli a _terzi_
+    + _escludere_ i dati dai futuri cicli di allenamento
+
+- Fare richieste _precise_, _chiare_, e _possibili_ (rispetto ai dati forniti)
+    + riguardanti operazioni che _in linea di principio_ __comprendi__ e che __potresti fare senza GenAI__ 
+
+- _Non_ fidarsi ciecamente dei risultati, _verificare_ che siano _corretti_
+    + specie laddove siano svolti _calcoli_ su dati _numerici_
+
+- Chiedere il __codice sorgente__ delle operazioni svolte, per _verificarle_, e renderle __riproducibili__
+
+- _Non delegare_ a GenAI operazioni che implichino punti di __scelta__ e/o __responsabilità__
+    + es. scelta di un _modello predittivo_, scelta di un'_operazione di aggregazione_ o _discretizzazione_, etc.
 
 ---
 
