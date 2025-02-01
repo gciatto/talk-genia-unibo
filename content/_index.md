@@ -336,7 +336,10 @@ Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, C
 * ... _motore di ricerca_: uso GenAI per __ricercare__ informazioni
 * ... _assistente di (ri)scrittura_: uso GenAI per __(ri)scrivere__ documenti
 * ... _assistente di lettura_: uso GenAI per __acquisire informazioni__ da documenti
+* ... _assistende per l'elaborazione dei dati_: uso GenAI per __elaborare__ dati
 * ... _generatore di contenuti_: uso GenAI per __creare__ contenuti
+
+{{% color "red" %}}Lista non esaustiva!{{% /color %}}
 
 ---
 
@@ -925,6 +928,103 @@ Confrontiamo due articoli scientifici:
 <embed src="./2023.findings-acl.309.pdf" width="100%" height="700px" />
 {{% /col %}}
 {{% /multicol %}}
+
+---
+
+## Esempio: __confronto__ di _versioni diverse_ dello _stesso_ documento
+
+TBD
+
+---
+
+## Esempio: supporto alla _revisione_ di un documento
+
+### Approccio 1 ({{% color "red" %}}Sconsigliato{{% /color %}}): Delega del giudizio
+
+TBD
+
+---
+
+## Esempio: supporto alla _revisione_ di un documento
+
+### Approccio 2 ({{% color "green" %}}Accettabile{{% /color %}})
+
+TBD
+
+---
+
+## GenAI come assistente per _l'elaborazione dei dati_
+
+### Razionale
+
+<br>
+
+- GenAI può essere usato per __elaborare dati__, anche _strutturati_, _semi-strutturati_, o _non strutturati_
+    + e.g., _tabelle_, _dataset_, etc.
+
+- Vari tipi di elaborazione possibile, es:
+    - (semplicifi) operazioni di _aggregazione_ o _filtraggio_ di dati
+    - _visualizzazione_ dei dati
+    - creazione di (semplici) modelli _predittivi_ 
+    - generazione di dati __sintetici__
+
+- Si istruisce GenAI ad operare come un __analista dati__ o un _data scientist_
+    + fornendo i _dati_ e le operazioni da _eseguire_, valutando i _risultati_
+
+---
+
+## GenAI come assistente per _l'elaborazione dei dati_
+
+### Consigli sempre validi
+
+<br>
+
+TBD
+
+---
+
+## GenAI come assistente per _l'elaborazione dei dati_
+
+### Disclaimer
+
+<br>
+
+- LLM di per loro sono _imprecisi_ e _non affidabili_ per la data science
+    + specie al crescere del volume dei dati
+
+- Tuttavia, FM posssono generare __codice di programmazione__ (dietro le quinte) per _elaborare_ i dati
+    + _compensando_ quindi la _limitata_ capacità di analisi dei LLM
+
+---
+
+## Esempio: studio _attrattività_ dei corsi UniBO
+
+TBD
+
+---
+
+## Esempio: generazione di _dati sintetici_
+
+TBD
+
+---
+
+## GenAI come assistente alla _generazione di contenuti_
+
+### Razionale
+### Consigli sempre validi
+
+---
+
+## Esempio: generazione di _foto_ di fiori _immaginari_
+
+TBD
+
+---
+
+## Esempio: generazione di _immagini di copertina_ 
+
+TBD
 
 ---
 
