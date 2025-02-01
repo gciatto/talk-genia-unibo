@@ -25,13 +25,28 @@ outputs = ["Reveal"]
 
 <{{< slides-url >}}>
 
-<!-- ![](./qr-slides.png) -->
+![](./qr.png)
 
 [<i class="fa fa-print" aria-hidden="true"></i> versione stampabile](?print-pdf&pdfSeparateFragments=false)
+
+---
+
+## Scaletta
+
+1. [Introduzione](#intro)
+2. [Principali soluzioni tecnologiche](#interfaces)
+3. [Principali modalità d'utilizzo](#modes)
+    1. [Esempio di GenAI come motore di ricerca](#search-engine)
+    2. [Esempio di GenAI come assistente di (ri)scrittura](#writing)
+    3. [Esempio di GenAI come assistente di lettura](#reading)
+    4. [Esempio di GenAI come assistente per l'elaborazione dei dati](#data-processing)
+    5. [Esempio di GenAI come generatore di contenuti](#content-generation)
 
 {{% /section %}}
 
 ---
+
+{{< slide id="intro" >}}
 
 ## __GenAI__: Intelligenza Artificiale _Generativa_
 
@@ -345,6 +360,8 @@ Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, C
 
 ---
 
+{{< slide id="search-engine" >}}
+
 ## GenAI come _motore di ricerca_
 
 ### Disclaimer
@@ -402,8 +419,6 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 ---
 
 {{% section %}}
-
-{{< slide id="example-search-chatgpt-mas" >}}
 
 ## Esempio: esplorazione sull'argomento ["Sistemi multi-agente"](https://en.wikipedia.org/wiki/Multi-agent_system), con _ChatGPT_
 
@@ -567,10 +582,6 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 ---
 
-{{% section %}}
-
-{{< slide id="example-search-scite-mas" >}}
-
 ## GenAI come _motore di ricerca_ (pt. 2)
 
 > Uno strumento forse _migliore_ (ma più _costoso_) in ambito accademico, 
@@ -609,9 +620,9 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 - _Non_ fa davvero riferimento alle parole chiave menzionate in precedenza
 - __Bias__ di campionamento
 
-{{% /section %}}
-
 ---
+
+{{< slide id="writing" >}}
 
 ## GenAI come _assistente di (ri)scrittura_
 
@@ -836,7 +847,7 @@ __TL;DR:__ GPT _usabile_ laddove il __contesto__ possa aiutare la traduzione
 
 ---
 
-{{% section %}}
+{{< slide id="reading" >}}
 
 ## GenAI come _assistente di lettura_
 
@@ -903,8 +914,6 @@ Si veda file [P000_ORD24.pdf](https://www.istruzione.it/esame_di_stato/202324/It
 {{< image src="./reading/inspection/P000_ORD24-pag2.png" width="100%" max-h="80vh" >}}
 {{% /col %}}
 {{% /multicol %}}
-
-{{% /section %}}
 
 ---
 
@@ -1110,6 +1119,8 @@ Dicembre 2024:
 
 ---
 
+{{< slide id="data-processing" >}}
+
 ## GenAI come assistente per _l'elaborazione dei dati_
 
 ### Razionale
@@ -1165,6 +1176,8 @@ TBD
 TBD
 
 ---
+
+{{< slide id="content-generation" >}}
 
 ## GenAI come assistente alla _generazione di contenuti_
 
