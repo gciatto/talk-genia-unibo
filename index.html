@@ -32,7 +32,7 @@
 <p><a href="mailto:giovanni.ciatto@unibo.it">Giovanni Ciatto</a>, Dipartimento di Informatica — Scienza e Ingegneria (DISI), Sede di Cesena,
 <br> Alma Mater Studiorum—Università di Bologna</p>
 <img src="./front.webp" alt="" style="max-width: 95vw; max-height: 50vh; object-fit: contain; ">
-<p><span class="hint">(versione presentazione: 2025-02-02)</span></p>
+<p><span class="hint">(versione presentazione: 2025-02-03)</span></p>
 </section><section>
 <h2 id="link-a-queste-slide">Link a queste slide</h2>
 <p><a href="https://gciatto.github.io/talk-genai-unibo/">https://gciatto.github.io/talk-genai-unibo/</a></p>
@@ -125,22 +125,22 @@
 <h2 id="alcune-soluzioni-tecnologiche-permettono-di-_scegliere_-pt-1">Alcune soluzioni tecnologiche permettono di <em>scegliere</em> (pt. 1)</h2>
 <img src="./logo-chatgpt.svg" alt="" style="height: 2em; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
 <br>
-<img src="./chatgpt-settings/no-learn-1.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; border: 1px solid black">
+<img src="./chatgpt-settings/no-learn-1.png" alt="" style="width: 100%; max-width: 95vw; max-height: 70vh; object-fit: contain; ">
 </section><section>
 <h2 id="alcune-soluzioni-tecnologiche-permettono-di-_scegliere_-pt-2">Alcune soluzioni tecnologiche permettono di <em>scegliere</em> (pt. 2)</h2>
 <img src="./logo-chatgpt.svg" alt="" style="height: 2em; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
 <br>
-<img src="./chatgpt-settings/no-learn-2.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; border: 1px solid black">
+<img src="./chatgpt-settings/no-learn-2.png" alt="" style="width: 100%; max-width: 95vw; max-height: 70vh; object-fit: contain; ">
 </section><section>
 <h2 id="alcune-soluzioni-tecnologiche-permettono-di-_scegliere_-pt-3">Alcune soluzioni tecnologiche permettono di <em>scegliere</em> (pt. 3)</h2>
 <img src="./logo-chatgpt.svg" alt="" style="height: 2em; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
 <br>
-<img src="./chatgpt-settings/no-learn-3.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; border: 1px solid black">
+<img src="./chatgpt-settings/no-learn-3.png" alt="" style="width: 100%; max-width: 95vw; max-height: 70vh; object-fit: contain; ">
 </section><section>
 <h2 id="alcune-soluzioni-tecnologiche-permettono-di-_scegliere_-pt-4">Alcune soluzioni tecnologiche permettono di <em>scegliere</em> (pt. 4)</h2>
 <img src="./logo-chatgpt.svg" alt="" style="height: 2em; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
 <br>
-<img src="./chatgpt-settings/no-learn-4.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; border: 1px solid black">
+<img src="./chatgpt-settings/no-learn-4.png" alt="" style="width: 100%; max-width: 95vw; max-height: 70vh; object-fit: contain; ">
 
 </section>
 </section>
@@ -684,12 +684,11 @@ Gli agenti possono essere <em>modelli di IA</em>, programmi <em>software</em>, <
 
 
 
-<img src="./search-engine/scite/mas-1.svg" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+<img src="./search-engine/scite/mas-1.svg" alt="" style="width: 100%; max-width: 95vw; max-height: 70vh; object-fit: contain; ">
 
 <ul>
 <li>Riferimenti bibliografici con <em>ipertesti</em>, e <em>metadati</em></li>
 <li>Nella parte <em>destra</em>, sono riportati i <em>dettagli</em> dei riferimenti bibliografici</li>
-<li><strong>Bias</strong> di campionamento</li>
 </ul>
 </section><section>
 
@@ -698,11 +697,11 @@ Gli agenti possono essere <em>modelli di IA</em>, programmi <em>software</em>, <
 
 
 
-<img src="./search-engine/scite/mas-2.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+<img src="./search-engine/scite/mas-2.png" alt="" style="width: 100%; max-width: 95vw; max-height: 70vh; object-fit: contain; ">
 
 <ul>
-<li><em>Non</em> fa davvero riferimento alle parole chiave menzionate in precedenza</li>
-<li><strong>Bias</strong> di campionamento</li>
+<li><span style="color: red;">Non</span> fa davvero riferimento alle <span style="color: red;">parole chiave menzionate in precedenza</span></li>
+<li><span style="color: red;">Bias di campionamento</span></li>
 </ul>
 </section>
 
@@ -712,7 +711,7 @@ Gli agenti possono essere <em>modelli di IA</em>, programmi <em>software</em>, <
 <h3 id="razionale-1">Razionale</h3>
 <br>
 <ul>
-<li><em>Interrogare</em> GenAI per generare testo da riusare <strong>verbatim</strong> è un approccio <em>naive</em>
+<li><em>Interrogare</em> GenAI per generare testo da riusare <strong>verbatim</strong> è un approccio <span style="color: red;">naive</span>
 <ul>
 <li>ci si affida in toto a GenAI, col rischio che sfuggano <em>allucinazioni</em></li>
 <li>si rischia di ereditare <em>bias</em> ed <em>errori semantici</em> senza accorgersene</li>
@@ -724,7 +723,7 @@ Gli agenti possono essere <em>modelli di IA</em>, programmi <em>software</em>, <
 <span class="fragment ">
   <blockquote>
 <ul>
-<li>Approccio più <em>furbo</em>: chiedere a GenAI di <strong>rielaborare</strong> un testo grezzo o parziale
+<li>Approccio più <em>furbo</em>: chiedere a GenAI di <strong>rielaborare</strong> un testo grezzo o <em>parziale</em>
 <ul>
 <li>es. una lista di <em>cose da dire</em>, argomenti da trattare, etc.</li>
 <li><em>controllo</em> e <em>responsabilità</em> del <strong>filo del discorso</strong> rimane sull’utente</li>
@@ -737,7 +736,7 @@ Gli agenti possono essere <em>modelli di IA</em>, programmi <em>software</em>, <
 </section><section>
 <h2 id="genai-come-_assistente-di-riscrittura_-1">GenAI come <em>assistente di (ri)scrittura</em></h2>
 <h3 id="consigli-sempre-validi-1">Consigli sempre validi</h3>
-<br> 
+<br>
 <ul>
 <li>tenere il <em>controllo</em> di <strong>cosa</strong> si vuole dire nel testo</li>
 <li>farsi <em>assistere</em> riguardo alla <strong>forma</strong> del testo</li>
@@ -848,11 +847,11 @@ Viene seguito un <em>approccio metodologico formale</em> per ridurre le distorsi
 <h3 id="altri-tipi-di-supporto-alla-scrittura-1">Altri tipi di supporto alla scrittura</h3>
 <h2 id="supporto-alla-_traduzione-automatica_-pt-2">Supporto alla <em>traduzione automatica</em> (pt. 2)</h2>
 <p>Chiediamo a <strong>Scite Assistant</strong>:</p>
-<img src="./rewriting/google-translate-vs-chat-gpt.gif" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+<img src="./rewriting/google-translate-vs-chat-gpt.gif" alt="" style="width: 100%; max-width: 95vw; max-height: 70vh; object-fit: contain; ">
 </section><section>
 <h3 id="altri-tipi-di-supporto-alla-scrittura-2">Altri tipi di supporto alla scrittura</h3>
 <h2 id="supporto-alla-_traduzione-automatica_-pt-3">Supporto alla <em>traduzione automatica</em> (pt. 3)</h2>
-<img src="./rewriting/google-translate.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+<img src="./rewriting/google-translate.png" alt="" style="width: 100%; max-width: 95vw; max-height: 70vh; object-fit: contain; ">
 <br>
 <p><strong>TL;DR:</strong> Google Translate è <em>preferibile</em> laddove sia richiesta <em>precisione</em></p>
 </section><section>
@@ -1106,6 +1105,8 @@ Viene seguito un <em>approccio metodologico formale</em> per ridurre le distorsi
 </section><section>
 <img src="./reading/review/review-3.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
 </section><section>
+<img src="./reading/review/review-4.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</section><section>
 <h2 id="esempio-supporto-alla-_revisione_-di-un-documento">Esempio: supporto alla <em>revisione</em> di un documento</h2>
 <h3 id="aspetti-span-stylecolor-redcriticispan">Aspetti <span style="color: red;">critici</span></h3>
 <br>
@@ -1175,13 +1176,13 @@ Viene seguito un <em>approccio metodologico formale</em> per ridurre le distorsi
 <br>
 <ul>
 <li>
-<p>LLM di per loro sono <em>imprecisi</em> e <em>non affidabili</em> per la data science</p>
+<p><em>LLM</em>, di per loro, sono <strong>imprecisi</strong> e <em>non affidabili</em> per il calcolo e l’<em>analisi di dati</em></p>
 <ul>
 <li>specie al crescere del volume dei dati</li>
 </ul>
 </li>
 <li>
-<p>Tuttavia, FM posssono generare <strong>codice di programmazione</strong> (dietro le quinte) per <em>elaborare</em> i dati</p>
+<p>Tuttavia, <em>FM</em> posssono generare <strong>codice di programmazione</strong> (dietro le quinte) per <em>elaborare</em> i dati</p>
 <ul>
 <li><em>compensando</em> quindi la <em>limitata</em> capacità di analisi dei LLM</li>
 </ul>
