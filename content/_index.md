@@ -100,7 +100,7 @@ Algoritmi di _IA_ in grado di __generare automaticamente__ _contenuti_, e.g.:
 
 {{< image src="./logo-chatgpt.svg" height="2em" >}}
 <br/>
-{{< image src="./chatgpt-settings/no-learn-1.png" width="100%" morestyle="border: 1px solid black" >}}
+{{< image src="./chatgpt-settings/no-learn-1.png" width="100%" max-h="70vh" >}}
 
 ---
 
@@ -108,7 +108,7 @@ Algoritmi di _IA_ in grado di __generare automaticamente__ _contenuti_, e.g.:
 
 {{< image src="./logo-chatgpt.svg" height="2em" >}}
 <br/>
-{{< image src="./chatgpt-settings/no-learn-2.png" width="100%" morestyle="border: 1px solid black" >}}
+{{< image src="./chatgpt-settings/no-learn-2.png" width="100%" max-h="70vh" >}}
 
 ---
 
@@ -116,7 +116,7 @@ Algoritmi di _IA_ in grado di __generare automaticamente__ _contenuti_, e.g.:
 
 {{< image src="./logo-chatgpt.svg" height="2em" >}}
 <br/>
-{{< image src="./chatgpt-settings/no-learn-3.png" width="100%" morestyle="border: 1px solid black" >}}
+{{< image src="./chatgpt-settings/no-learn-3.png" width="100%" max-h="70vh" >}}
 
 
 ---
@@ -125,7 +125,7 @@ Algoritmi di _IA_ in grado di __generare automaticamente__ _contenuti_, e.g.:
 
 {{< image src="./logo-chatgpt.svg" height="2em" >}}
 <br/>
-{{< image src="./chatgpt-settings/no-learn-4.png" width="100%" morestyle="border: 1px solid black" >}}
+{{< image src="./chatgpt-settings/no-learn-4.png" width="100%"  max-h="70vh" >}}
 
 {{% /section %}}
 
@@ -251,7 +251,7 @@ Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, C
 
 {{% fragment %}}
 
-### Abilitante per 
+### Abilitante per
 
 - Prompt __parametrici__, risposte processate _automaticamente_
     + es. `list of LOCALITIES in AREA, one by line`
@@ -296,7 +296,7 @@ Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, C
 
 - IA __automatizza__ _operazioni complesse_ (interne all'app)
     + e.g., _scrittura_ di bozze
-    + e.g., _generazione_ di formule, grafici 
+    + e.g., _generazione_ di formule, grafici
 
 {{% fragment %}}
 
@@ -308,7 +308,7 @@ Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, C
 {{% /fragment %}}
 
 {{% /col %}}
-{{% /multicol %}} 
+{{% /multicol %}}
 
 ---
 
@@ -324,7 +324,7 @@ Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, C
     + _input_: descrizione testuale del contenuto
     + _output_: contenuto
 
-- L'interfaccia permette poi 
+- L'interfaccia permette poi
     + _riproduzione_ del contenuto
     + __modifica__ del contenuto
         + e.g., _taglio_ di parti, _modifica_ di tonalità
@@ -336,7 +336,7 @@ Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, C
 - ["Canzona di Bacco" (Lorenzo il Magnifico, 1490)](https://it.wikipedia.org/wiki/Il_trionfo_di_Bacco_e_Arianna_(poesia)), rock
     + <https://suno.com/song/cce33ee7-a581-47ae-b9d1-806902e88e47>
 
-{{% /fragment %}}    
+{{% /fragment %}}
 {{% /col %}}
 {{% /multicol %}}
 
@@ -348,7 +348,7 @@ Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, C
 
 ## Categorizzate per __ruolo di GenAI__
 
-### GenAI come... 
+### GenAI come...
 
 * ... _motore di ricerca_: uso GenAI per __ricercare__ informazioni
 * ... _assistente di (ri)scrittura_: uso GenAI per __(ri)scrivere__ documenti
@@ -422,8 +422,8 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 ## Esempio: esplorazione sull'argomento ["Sistemi multi-agente"](https://en.wikipedia.org/wiki/Multi-agent_system), con _ChatGPT_
 
-> Un sistema multi-agente (MAS) è un tipo di sistema composto da __molteplici agenti indipendenti__ (ma _interattivi_), ciascuno capace di _percepire_ il proprio ambiente e di intraprendere _azioni_. 
-> Gli agenti possono essere _modelli di IA_, programmi _software_, _robot_ e altre _entità computazionali_. 
+> Un sistema multi-agente (MAS) è un tipo di sistema composto da __molteplici agenti indipendenti__ (ma _interattivi_), ciascuno capace di _percepire_ il proprio ambiente e di intraprendere _azioni_.
+> Gli agenti possono essere _modelli di IA_, programmi _software_, _robot_ e altre _entità computazionali_.
 > _Molteplici agenti_ possono _cooperare_ o verso un _obiettivo comune_ che va oltre le capacità dei singoli agenti, con una maggiore adattabilità e robustezza.
 
 (cf. <https://www.gartner.com/en/information-technology/glossary/multiagent-systems>)
@@ -530,7 +530,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 {{% col %}}
 - Riferimento _adeguato_ al contesto corrente
 - [Link ad Arxiv](https://arxiv.org/abs/1903.08082) __incoerente__ col riferimento
-- Il paper menzionato ha un __altro URL__: 
+- Il paper menzionato ha un __altro URL__:
     + <https://arxiv.org/abs/2011.05373>
 - Riferimeto __mancante__ a [paper definitivo](https://dl.acm.org/doi/10.5555/3495724.3497048)
 {{% /col %}}
@@ -545,7 +545,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 {{% col %}}
 - Riferimento _**in**adeguato_ al contesto corrente
 - [Link ad Arxiv](https://arxiv.org/abs/1906.01220) __incoerente__ col riferimento
-- Il paper menzionato ha un __altro URL__: 
+- Il paper menzionato ha un __altro URL__:
     + <https://arxiv.org/abs/1809.03531>
 - Riferimeto __mancante__ a [paper definitivo](https://doi.org/10.1109/LRA.2019.2903261)
 {{% /col %}}
@@ -584,7 +584,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 ## GenAI come _motore di ricerca_ (pt. 2)
 
-> Uno strumento forse _migliore_ (ma più _costoso_) in ambito accademico, 
+> Uno strumento forse _migliore_ (ma più _costoso_) in ambito accademico,
 > <br> potrebbe essere [Scite](https://scite.ai)
 
 - ![](./logo-scite.svg) è un __database bibliografico__ che indicizza le citazioni nel contesto (cf. __"Smart Citation Index"__)
@@ -600,25 +600,23 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 ## Interfaccia di [Scite Assistant](https://scite.ai/assistant)
 
-
 ![](./homepage-scite.png)
 
 ---
 
 ## Esempio: esplorazione sull'argomento ["Sistemi multi-agente"](https://en.wikipedia.org/wiki/Multi-agent_system), con _Scite_
 
-{{< image src="./search-engine/scite/mas-1.svg" width="100%" max-h="80vh" >}}
+{{< image src="./search-engine/scite/mas-1.svg" width="100%" max-h="70vh" >}}
 
 - Riferimenti bibliografici con _ipertesti_, e _metadati_
 - Nella parte _destra_, sono riportati i _dettagli_ dei riferimenti bibliografici
-- __Bias__ di campionamento
 
 ---
 
-{{< image src="./search-engine/scite/mas-2.png" width="100%" max-h="80vh" >}}
+{{< image src="./search-engine/scite/mas-2.png" width="100%" max-h="70vh" >}}
 
-- _Non_ fa davvero riferimento alle parole chiave menzionate in precedenza
-- __Bias__ di campionamento
+- {{% color "red" %}}Non{{% /color %}} fa davvero riferimento alle {{% color "red" %}}parole chiave menzionate in precedenza{{% /color %}}
+- {{% color "red" %}}Bias di campionamento{{% /color %}}
 
 ---
 
@@ -630,13 +628,13 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 <br>
 
-- _Interrogare_ GenAI per generare testo da riusare __verbatim__ è un approccio _naive_
+- _Interrogare_ GenAI per generare testo da riusare __verbatim__ è un approccio {{% color "red" %}}naive{{% /color %}}
     + ci si affida in toto a GenAI, col rischio che sfuggano _allucinazioni_
     + si rischia di ereditare _bias_ ed _errori semantici_ senza accorgersene
 
 {{% fragment %}}
 
-> - Approccio più _furbo_: chiedere a GenAI di __rielaborare__ un testo grezzo o parziale
+> - Approccio più _furbo_: chiedere a GenAI di __rielaborare__ un testo grezzo o _parziale_
 >    + es. una lista di _cose da dire_, argomenti da trattare, etc.
 >    + _controllo_ e _responsabilità_ del __filo del discorso__ rimane sull'utente
 
@@ -648,7 +646,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 ### Consigli sempre validi
 
-<br> 
+<br>
 
 * tenere il _controllo_ di __cosa__ si vuole dire nel testo
 * farsi _assistere_ riguardo alla __forma__ del testo
@@ -663,8 +661,8 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 (cf. [Neuro-symbolic artificial intelligence](https://ip.ios.semcs.net/articles/ai-communications/aic210084))
 
-> Una __revisione sistematica della letteratura__ (_SLR_) è un metodo accademico indipendente che mira a identificare e valutare tutta la _letteratura_ rilevante su un _argomento_ al fine di trarre conclusioni sulla questione in esame. 
-> [...] 
+> Una __revisione sistematica della letteratura__ (_SLR_) è un metodo accademico indipendente che mira a identificare e valutare tutta la _letteratura_ rilevante su un _argomento_ al fine di trarre conclusioni sulla questione in esame.
+> [...]
 > Viene seguito un _approccio metodologico formale_ per ridurre le distorsioni causate da una selezione eccessivamente restrittiva della letteratura disponibile e per aumentare l'_affidabilità_ della letteratura selezionata.
 
 (cf. <https://www.tu.berlin/en/wm/bibliothek/research-teaching/systematic-literature-reviews/description-of-the-systematic-literature-review-method>)
@@ -780,7 +778,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 Chiediamo a __Scite Assistant__:
 
-{{< image src="./rewriting/google-translate-vs-chat-gpt.gif" width="100%" max-h="80vh" >}}
+{{< image src="./rewriting/google-translate-vs-chat-gpt.gif" width="100%" max-h="70vh" >}}
 
 ---
 
@@ -788,7 +786,7 @@ Chiediamo a __Scite Assistant__:
 
 ## Supporto alla _traduzione automatica_ (pt. 3)
 
-{{< image src="./rewriting/google-translate.png" width="100%" max-h="80vh" >}}
+{{< image src="./rewriting/google-translate.png" width="100%" max-h="70vh" >}}
 <br>
 
 __TL;DR:__ Google Translate è _preferibile_ laddove sia richiesta _precisione_
@@ -864,7 +862,7 @@ __TL;DR:__ GPT _usabile_ laddove il __contesto__ possa aiutare la traduzione
 {{% fragment %}}
 
 > Il testo [o contenuto] da cui estrarre informazioni __deve essere fornito__ dall'_utente_
-- _Non presumere_ che GenAI conosca il testo [o contenuto] in questione 
+- _Non presumere_ che GenAI conosca il testo [o contenuto] in questione
 
 {{% /fragment %}}
 
@@ -933,7 +931,7 @@ Si veda file [Policy-Generative-AI.pdf](www.unibo.it/it/allegati/policy-per-un-u
 
 {{< image src="./reading/synthesis/policy-3.png" width="100%" max-h="80vh" >}}
 
---- 
+---
 
 {{< image src="./reading/synthesis/policy-4.png" width="100%" max-h="80vh" >}}
 
@@ -949,7 +947,7 @@ Si veda file [Policy-Generative-AI.pdf](www.unibo.it/it/allegati/policy-per-un-u
 
 ## Esempio: __confronto__ di documenti _diversi_
 
-Confrontiamo due __articoli scientifici__ (su _tema simile_): 
+Confrontiamo due __articoli scientifici__ (su _tema simile_):
 
 {{% multicol %}}
 {{% col class="col-6" %}}
@@ -1017,12 +1015,12 @@ Comparatiamo due diverse versioni di <https://arxiv.org/abs/2404.04108>
 
 {{% multicol %}}
 {{% col class="col-6" %}}
-Aprile 2024: 
+Aprile 2024:
 <https://arxiv.org/abs/2404.04108v1>
 <embed src="https://arxiv.org/pdf/2404.04108v1" width="100%" height="700px" />
 {{% /col %}}
 {{% col class="col-6" %}}
-Dicembre 2024: 
+Dicembre 2024:
 <https://arxiv.org/abs/2404.04108v2>
 <embed src="https://arxiv.org/pdf/2404.04108v2" width="100%" height="700px" />
 {{% /col %}}
@@ -1091,6 +1089,10 @@ Dicembre 2024:
 
 ---
 
+{{< image src="./reading/review/review-4.png" width="100%" max-h="80vh" >}}
+
+---
+
 ## Esempio: supporto alla _revisione_ di un documento
 
 ### Aspetti {{% color "red" %}}critici{{% /color %}}
@@ -1133,7 +1135,7 @@ Dicembre 2024:
 - Vari tipi di elaborazione possibile, es:
     - (semplicifi) operazioni di _aggregazione_ o _filtraggio_ di dati
     - _visualizzazione_ dei dati
-    - creazione di (semplici) modelli _predittivi_ 
+    - creazione di (semplici) modelli _predittivi_
     - generazione di dati __sintetici__
 
 - Si istruisce GenAI ad operare come un __analista dati__ o un _data scientist_
@@ -1147,10 +1149,10 @@ Dicembre 2024:
 
 <br>
 
-- LLM di per loro sono _imprecisi_ e _non affidabili_ per la data science
+- _LLM_, di per loro, sono __imprecisi__ e _non affidabili_ per il calcolo e l'_analisi di dati_
     + specie al crescere del volume dei dati
 
-- Tuttavia, FM posssono generare __codice di programmazione__ (dietro le quinte) per _elaborare_ i dati
+- Tuttavia, _FM_ posssono generare __codice di programmazione__ (dietro le quinte) per _elaborare_ i dati
     + _compensando_ quindi la _limitata_ capacità di analisi dei LLM
 
 ---
@@ -1165,7 +1167,7 @@ Dicembre 2024:
     + _escludere_ i dati dai futuri cicli di allenamento
 
 - Fare richieste _precise_, _chiare_, e _possibili_ (rispetto ai dati forniti)
-    + riguardanti operazioni che _in linea di principio_ __comprendi__ e che __potresti fare senza GenAI__ 
+    + riguardanti operazioni che _in linea di principio_ __comprendi__ e che __potresti fare senza GenAI__
 
 - _Non_ fidarsi ciecamente dei risultati, _verificare_ che siano _corretti_
     + specie laddove siano svolti _calcoli_ su dati _numerici_
@@ -1204,7 +1206,7 @@ TBD
 
 ---
 
-## Esempio: generazione di _immagini di copertina_ 
+## Esempio: generazione di _immagini di copertina_
 
 TBD
 
