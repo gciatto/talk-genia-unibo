@@ -1155,16 +1155,16 @@ Viene seguito un <em>approccio metodologico formale</em> per ridurre le distorsi
 </ul>
 </li>
 <li>
-<p>Vari tipi di elaborazione possibile, es:</p>
+<p>Vari <strong>tipi di elaborazione</strong> possibili, es:</p>
 <ul>
 <li>(semplicifi) operazioni di <em>aggregazione</em> o <em>filtraggio</em> di dati</li>
 <li><em>visualizzazione</em> dei dati</li>
 <li>creazione di (semplici) modelli <em>predittivi</em></li>
-<li>generazione di dati <strong>sintetici</strong></li>
+<li><em>generazione</em> di dati <em>sintetici</em></li>
 </ul>
 </li>
 <li>
-<p>Si istruisce GenAI ad operare come un <strong>analista dati</strong> o un <em>data scientist</em></p>
+<p>Si istruisce GenAI ad operare come un <strong>analista dati</strong> o un <strong>data scientist</strong></p>
 <ul>
 <li>fornendo i <em>dati</em> e le operazioni da <em>eseguire</em>, valutando i <em>risultati</em></li>
 </ul>
@@ -1206,7 +1206,7 @@ Viene seguito un <em>approccio metodologico formale</em> per ridurre le distorsi
 </ul>
 </li>
 <li>
-<p><em>Non</em> fidarsi ciecamente dei risultati, <em>verificare</em> che siano <em>corretti</em></p>
+<p><strong>Non fidarsi ciecamente</strong> dei risultati, <em>verificare</em> che siano <em>corretti</em></p>
 <ul>
 <li>specie laddove siano svolti <em>calcoli</em> su dati <em>numerici</em></li>
 </ul>
@@ -1222,11 +1222,231 @@ Viene seguito un <em>approccio metodologico formale</em> per ridurre le distorsi
 </li>
 </ul>
 </section><section>
+
+
+<section data-shortcode-section="">
 <h2 id="esempio-studio-_attrattività_-dei-corsi-unibo">Esempio: studio <em>attrattività</em> dei corsi UniBO</h2>
-<p>TBD</p>
+<p>Sfruttando gli <a href="https://dati.unibo.it/dataset/degree-programmes-figures">open-data di Ateneo</a>,
+e ChatGPT,
+possiamo velocemente <em>analizzare</em> l’<strong>attrattività dei corsi</strong> UniBO nel tempo</p>
+<br>
+<span class="fragment ">
+  <h3 id="passi-concettuali">Passi concettuali</h3>
+<ol>
+<li>[Manuale] <strong>scaricare</strong> i file <em>CSV</em> con i dati dei corsi, <em>per ogni anno accademico</em></li>
+<li><strong>convogliare</strong> tutti i dati in un’unica tabella</li>
+<li><strong>aggregare</strong> i dati per <em>categoria del CdL</em></li>
+<li><strong>graficare</strong> tante <em>linee temporali</em> quante sono le <em>categorie</em> di CdL</li>
+<li>[Manuale] <strong>interpretare</strong> i grafici</li>
+</ol>
+</span>
+<br>
+<span class="fragment ">
+  <img src="./processing/actraction.png" alt="" style="width: 100%; max-width: 95vw; max-height: 40vh; object-fit: contain; ">
+</span>
 </section><section>
+<img src="./processing/actraction-1.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</section><section>
+<img src="./processing/actraction-2.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</section><section>
+<div class="container w-100 m-0 p-0">
+    <div class="row "><div class="col " style="text-align: center;"><img src="./processing/actraction-3a.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</div>
+<div class="col " style="text-align: center;"><img src="./processing/actraction-3b.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</div>
+</div>
+</div>
+</section><section>
+<img src="./processing/actraction-4.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</section><section>
+<img src="./processing/actraction-5.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</section><section>
+<img src="./processing/actraction-6.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</section><section>
+<h2 id="esempio-studio-_attrattività_-dei-corsi-unibo-1">Esempio: studio <em>attrattività</em> dei corsi UniBO</h2>
+<h3 id="commenti">Commenti</h3>
+<br>
+<ul>
+<li>
+<p>Rimane da <strong>verificare</strong> che il <em>codice generato</em> produca <em>davvero</em> i risultati mostrati da GenAI</p>
+</li>
+<li>
+<p>Il <strong>codice</strong> generato da GenAI è ciò che rende l’esercizio <em>ispezionabile</em> e <em>ripetibile</em></p>
+</li>
+<li>
+<p><span style="color: red;">Non è saggio delegare</span> un aspetto <strong>decisionale</strong> del processo a GenAI</p>
+<ul>
+<li>e.g., <strong>interpretare</strong> i risultati come <em>successo</em> o <em>fallimento</em> di una politica accademica</li>
+<li>e.g., <strong>categorizzare i CdL</strong> sulla base del loro <em>nome</em></li>
+</ul>
+</li>
+</ul>
+
+</section>
+</section><section>
+
+
+<section data-shortcode-section="">
 <h2 id="esempio-generazione-di-_dati-sintetici_">Esempio: generazione di <em>dati sintetici</em></h2>
-<p>TBD</p>
+<p>In contesti <em>di ricerca</em> più essere interessante <strong>generare dati sintetici</strong>, <em>simili</em> a dati reali esistenti</p>
+<br>
+<span class="fragment ">
+  <h3 id="dettagli">Dettagli</h3>
+<p>(Comunemente, ci vuole <strong>controllabilità</strong> del <em>processo</em> di generazione)</p>
+<ol>
+<li>
+<p><strong>Senza GenAI</strong>, si procede così:</p>
+<ol>
+<li>[Difficile, error-prone] stima della <em>distribuzione di probabilità</em> dei dati reali</li>
+<li><em>campionamento</em> da questa distribuzione</li>
+</ol>
+</li>
+<li>
+<p><strong>Con GenAI</strong>, si evita la difficoltà del punto 1.1:</p>
+<ol>
+<li>istruire GenAI sulle <em>differenze attese</em> rispetto ai <em>dati reali</em>, forniti</li>
+<li>richiesta di <em>generazione</em></li>
+<li><em>reiterare</em> fino a <em>soddisfazione</em></li>
+</ol>
+</li>
+</ol>
+</span>
+</section><section>
+<h2 id="esempio-generazione-di-_dati-sintetici_-sul-datset-irishttpsitwikipediaorgwikidataset_iris">Esempio: generazione di <em>dati sintetici</em> sul <a href="https://it.wikipedia.org/wiki/Dataset_Iris">datset Iris</a></h2>
+<div class="container w-100 m-0 p-0">
+    <div class="row "><div class="col " style="text-align: center;"><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Iris_dataset_scatterplot.svg" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</div>
+<div class="col " style="text-align: center;"><p>Nuova classe <em>sintetica</em>: “Iris Immagina”, in giallo</p>
+<img src="./processing/generation.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</div>
+</div>
+</div>
+</section><section>
+<img src="./processing/generation-1.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</section><section>
+<img src="./processing/generation-2.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</section><section>
+<img src="./processing/generation-3.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</section><section>
+<img src="./processing/generation-4.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</section><section>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="nohighlight" data-noescape=""><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">pandas</span> <span style="color:#204a87;font-weight:bold">as</span> <span style="color:#000">pd</span>
+</span></span><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">numpy</span> <span style="color:#204a87;font-weight:bold">as</span> <span style="color:#000">np</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># Caricare il dataset originale</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">file_path</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">"/mnt/data/iris.csv"</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">iris_df</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">pd</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">read_csv</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">file_path</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># Aggiungere i nomi delle colonne corretti</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">iris_df</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">columns</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">"sepal_length"</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">"sepal_width"</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">"petal_length"</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">"petal_width"</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">"class"</span><span style="color:#000;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># Definire i parametri per la nuova classe</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">num_samples</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">150</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">sepal_length</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">np</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">random</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">normal</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">loc</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">7.0</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">scale</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">0.4</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">size</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000">num_samples</span><span style="color:#000;font-weight:bold">)</span>  <span style="color:#8f5902;font-style:italic"># Sepalo lungo</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">sepal_width</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">np</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">random</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">normal</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">loc</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">3.2</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">scale</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">0.3</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">size</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000">num_samples</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">petal_length</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">np</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">random</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">normal</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">loc</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">2.0</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">scale</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">0.2</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">size</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000">num_samples</span><span style="color:#000;font-weight:bold">)</span>  <span style="color:#8f5902;font-style:italic"># Petalo corto</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">petal_width</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">np</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">random</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">normal</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">loc</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">1.8</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">scale</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">0.2</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">size</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000">num_samples</span><span style="color:#000;font-weight:bold">)</span>  <span style="color:#8f5902;font-style:italic"># Petalo largo</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># Creare il nuovo dataframe</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">iris_immagina_df</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">pd</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">DataFrame</span><span style="color:#000;font-weight:bold">({</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4e9a06">"sepal_length"</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000">sepal_length</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4e9a06">"sepal_width"</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000">sepal_width</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4e9a06">"petal_length"</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000">petal_length</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4e9a06">"petal_width"</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000">petal_width</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4e9a06">"class"</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">"Iris-immagina"</span><span style="color:#000;font-weight:bold">]</span> <span style="color:#ce5c00;font-weight:bold">*</span> <span style="color:#000">num_samples</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">})</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"># Unire i dati originali con quelli sintetici</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">extended_iris_df</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">pd</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">concat</span><span style="color:#000;font-weight:bold">([</span><span style="color:#000">iris_df</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">iris_immagina_df</span><span style="color:#000;font-weight:bold">],</span> <span style="color:#000">ignore_index</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#204a87;font-weight:bold">True</span><span style="color:#000;font-weight:bold">)</span>
+</span></span></code></pre></div><br>
+<span class="fragment ">
+  <p>Notare che GenAI ha scelto <strong>arbitrariamente</strong> (ma <em>ragionevolmente</em>):</p>
+<ul>
+<li>di usare <em>distribuzioni normali</em> per i dati sintetici
+<ul>
+<li>ed i <em>parametri</em> di queste distribuzioni</li>
+</ul>
+</li>
+<li>di generare dati multi-dimensionali <em>una componente per volta</em></li>
+</ul>
+</span>
+<span class="fragment ">
+  <blockquote>
+<p>Come?</p></blockquote>
+</span>
+</section><section>
+<img src="./processing/generation-5.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</section><section>
+<table>
+  <thead>
+      <tr>
+          <th>Feature</th>
+          <th>Original Mean (All Classes)</th>
+          <th>Original Std (All Classes)</th>
+          <th>Synthetic Mean (Iris-immagina)</th>
+          <th>Synthetic Std (Iris-immagina)</th>
+          <th>Rationale</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>sepal_length</code></td>
+          <td>5.85</td>
+          <td>0.83</td>
+          <td>7.0</td>
+          <td>0.4</td>
+          <td>Scelto per essere <em>più lungo</em> delle altre specie</td>
+      </tr>
+      <tr>
+          <td><code>sepal_width</code></td>
+          <td>3.05</td>
+          <td>0.43</td>
+          <td>3.2</td>
+          <td>0.3</td>
+          <td><em>Simile a Versicolor</em> per non essere un outlier estremo</td>
+      </tr>
+      <tr>
+          <td><code>petal_length</code></td>
+          <td>3.77</td>
+          <td>1.76</td>
+          <td>2.0</td>
+          <td>0.2</td>
+          <td><em>Corto</em> per distinguersi dalle altre specie</td>
+      </tr>
+      <tr>
+          <td><code>petal_width</code></td>
+          <td>1.21</td>
+          <td>0.76</td>
+          <td>1.8</td>
+          <td>0.2</td>
+          <td><em>Largo</em> per renderlo unico rispetto alle altre specie</td>
+      </tr>
+  </tbody>
+</table>
+</section><section>
+<h2 id="commenti">Commenti</h2>
+<ul>
+<li>
+<p>Rimane da <strong>verificare</strong> che il <em>codice generato</em> produca <em>davvero</em> i risultati mostrati da GenAI</p>
+</li>
+<li>
+<p>Il <strong>codice</strong> generato da GenAI è ciò che rende l’esercizio <em>ispezionabile</em> e <em>ripetibile</em></p>
+</li>
+<li>
+<p>La scelta dei parametri per la generazione dei dati è stata <strong>arbitraria</strong>, ma <em>ragionevole</em></p>
+<ul>
+<li>… GenAI ha correttamente <em>interpretato</em> le richieste dell’utente</li>
+</ul>
+</li>
+<li>
+<p>Meglio sarebbe <u>non</u> avere questo <span style="color: red;">margine di interpretazione</span></p>
+<ul>
+<li>i.e., l’utente dovrebbe specificare i <em>dettagli</em> di <strong>come</strong> generare i dati sintetici</li>
+</ul>
+</li>
+</ul>
+
+</section>
 </section>
 
 <section data-noprocess="" data-shortcode-slide="" id="content-generation">
