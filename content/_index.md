@@ -160,7 +160,7 @@ Algoritmi di _IA_ in grado di __generare automaticamente__ _contenuti_, e.g.:
 
 {{< image src="./logo-chatgpt.svg" height="2em" >}}
 <br/>
-{{< image src="./chatgpt-settings/no-learn-1.png" width="100%" max-h="70vh" >}}
+{{< image src="./chatgpt-settings/no-learn-1.png" width="100%" max-h="50vh" >}}
 
 ---
 
@@ -168,7 +168,7 @@ Algoritmi di _IA_ in grado di __generare automaticamente__ _contenuti_, e.g.:
 
 {{< image src="./logo-chatgpt.svg" height="2em" >}}
 <br/>
-{{< image src="./chatgpt-settings/no-learn-2.png" width="100%" max-h="70vh" >}}
+{{< image src="./chatgpt-settings/no-learn-2.png" width="100%" max-h="50vh" >}}
 
 ---
 
@@ -176,8 +176,7 @@ Algoritmi di _IA_ in grado di __generare automaticamente__ _contenuti_, e.g.:
 
 {{< image src="./logo-chatgpt.svg" height="2em" >}}
 <br/>
-{{< image src="./chatgpt-settings/no-learn-3.png" width="100%" max-h="70vh" >}}
-
+{{< image src="./chatgpt-settings/no-learn-3.png" width="100%" max-h="50vh" >}}
 
 ---
 
@@ -185,7 +184,7 @@ Algoritmi di _IA_ in grado di __generare automaticamente__ _contenuti_, e.g.:
 
 {{< image src="./logo-chatgpt.svg" height="2em" >}}
 <br/>
-{{< image src="./chatgpt-settings/no-learn-4.png" width="100%"  max-h="70vh" >}}
+{{< image src="./chatgpt-settings/no-learn-4.png" width="100%"  max-h="50vh" >}}
 
 {{% /section %}}
 
@@ -502,7 +501,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-1.png" width="100%" max-h="80vh" >}}
+{{< image src="./search-engine/chatgpt/mas-1.png" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% col %}}
 - Definizione sostanzialmente __corretta__
@@ -513,7 +512,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-2.png" width="100%" max-h="80vh" >}}
+{{< image src="./search-engine/chatgpt/mas-2.png" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% col %}}
 - Caratteristiche sostanzialmente __corrette__
@@ -524,7 +523,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-3.png" width="100%" max-h="80vh" >}}
+{{< image src="./search-engine/chatgpt/mas-3.png" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% col %}}
 - Le applicazioni _menzionate_ sono __corrette__
@@ -537,7 +536,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-4.png" width="100%" max-h="80vh" >}}
+{{< image src="./search-engine/chatgpt/mas-4.png" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% col %}}
 - _Nessuna_ garanzia di __esaustività__
@@ -551,7 +550,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-5.png" width="100%" max-h="80vh" >}}
+{{< image src="./search-engine/chatgpt/mas-5.png" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% col %}}
 - Gli aspetti _menzionati_ hanno __fondamenta solide__
@@ -563,7 +562,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-6.png" width="100%" max-h="80vh" >}}
+{{< image src="./search-engine/chatgpt/mas-6.png" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% col %}}
 - Tutte menzioni __corrette__
@@ -576,7 +575,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-7.png" width="100%" max-h="80vh" link="https://arxiv.org/abs/1706.02275" >}}
+{{< image src="./search-engine/chatgpt/mas-7.png" width="100%" max-h="70vh" link="https://arxiv.org/abs/1706.02275" >}}
 {{% /col %}}
 {{% col %}}
 - [Link ad Arxiv](https://arxiv.org/abs/1706.02275) __corretto__
@@ -589,7 +588,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-8.png" width="100%" max-h="80vh" link="https://arxiv.org/abs/1903.08082" >}}
+{{< image src="./search-engine/chatgpt/mas-8.png" width="100%" max-h="70vh" link="https://arxiv.org/abs/1903.08082" >}}
 {{% /col %}}
 {{% col %}}
 - Riferimento _adeguato_ al contesto corrente
@@ -604,7 +603,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-9.png" width="100%" max-h="80vh" link="https://arxiv.org/abs/1906.01220" >}}
+{{< image src="./search-engine/chatgpt/mas-9.png" width="100%" max-h="70vh" link="https://arxiv.org/abs/1906.01220" >}}
 {{% /col %}}
 {{% col %}}
 - Riferimento _**in**adeguato_ al contesto corrente
@@ -619,7 +618,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-10.png" width="100%" max-h="80vh" link="https://arxiv.org/abs/1910.05789" >}}
+{{< image src="./search-engine/chatgpt/mas-10.png" width="100%" max-h="70vh" link="https://arxiv.org/abs/1910.05789" >}}
 {{% /col %}}
 {{% col %}}
 - [Link ad Arxiv](https://arxiv.org/abs/1910.05789) __corretto__
@@ -632,7 +631,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./search-engine/chatgpt/mas-11.png" width="100%" max-h="80vh" link="https://arxiv.org/abs/1803.08884" >}}
+{{< image src="./search-engine/chatgpt/mas-11.png" width="100%" max-h="70vh" link="https://arxiv.org/abs/1803.08884" >}}
 {{% /col %}}
 {{% col %}}
 - [Link ad Arxiv](https://arxiv.org/abs/1803.08884) __corretto__
@@ -670,7 +669,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 ## Esempio: esplorazione sull'argomento ["Sistemi multi-agente"](https://en.wikipedia.org/wiki/Multi-agent_system), con _Scite_
 
-{{< image src="./search-engine/scite/mas-1.svg" width="100%" max-h="70vh" >}}
+{{< image src="./search-engine/scite/mas-1.svg" width="100%" max-h="60vh" >}}
 
 - Riferimenti bibliografici con _ipertesti_, e _metadati_
 - Nella parte _destra_, sono riportati i _dettagli_ dei riferimenti bibliografici
@@ -745,13 +744,13 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 <!-- (link alla [conversazione completa](https://chatgpt.com/share/e/679b94b4-93e4-8004-9fae-457ba9f4bf07)) -->
 
-{{< image src="./rewriting/bad/nesy-slr-1.png" width="100%" max-h="80vh" >}}
+{{< image src="./rewriting/bad/nesy-slr-1.png" width="100%" max-h="70vh" >}}
 
 ---
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./rewriting/bad/nesy-slr-2.png" width="100%" max-h="80vh" >}}
+{{< image src="./rewriting/bad/nesy-slr-2.png" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% col %}}
 1. Frase generica, incontestabile, corretta
@@ -774,10 +773,10 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./rewriting/bad/nesy-slr-3.png" width="100%" max-h="80vh" >}}
+{{< image src="./rewriting/bad/nesy-slr-3.png" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% col %}}
-{{< image src="./rewriting/bad/nesy-slr-4.png" width="100%" max-h="80vh" >}}
+{{< image src="./rewriting/bad/nesy-slr-4.png" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% /multicol %}}
 
@@ -793,7 +792,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./rewriting/nesy-slr-1.png" width="100%" max-h="80vh" >}}
+{{< image src="./rewriting/nesy-slr-1.png" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% col %}}
 ### La traccia
@@ -810,7 +809,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./rewriting/nesy-slr-2.png" width="100%" max-h="80vh" >}}
+{{< image src="./rewriting/nesy-slr-2.png" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% col %}}
 ### Analisi del risultato
@@ -848,7 +847,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 Chiediamo a __Scite Assistant__:
 
-{{< image src="./rewriting/google-translate-vs-chat-gpt.gif" width="100%" max-h="70vh" >}}
+{{< image src="./rewriting/google-translate-vs-chat-gpt.gif" width="100%" max-h="60vh" >}}
 
 ---
 
@@ -856,7 +855,7 @@ Chiediamo a __Scite Assistant__:
 
 ## Supporto alla _traduzione automatica_ (pt. 3)
 
-{{< image src="./rewriting/google-translate.png" width="100%" max-h="70vh" >}}
+{{< image src="./rewriting/google-translate.png" width="100%" max-h="60vh" >}}
 <br>
 
 __TL;DR:__ Google Translate è _preferibile_ laddove sia richiesta _precisione_
@@ -867,7 +866,7 @@ __TL;DR:__ Google Translate è _preferibile_ laddove sia richiesta _precisione_
 
 ## Supporto alla _traduzione automatica_ (pt. 4)
 
-{{< image src="./rewriting/translate-copilot.gif" width="100%" max-h="70vh" >}}
+{{< image src="./rewriting/translate-copilot.gif" width="100%" max-h="60vh" >}}
 
 <br>
 
@@ -881,7 +880,7 @@ __TL;DR:__ GPT _usabile_ laddove il __contesto__ possa aiutare la traduzione
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./rewriting/translate-with-style.png" width="100%" max-h="70vh" >}}
+{{< image src="./rewriting/translate-with-style.png" width="100%" max-h="60vh" >}}
 {{% /col %}}
 {{% col class="col-6" %}}
 - Richiesta di _transposizione_ in lingua con uno __stile specifico__
@@ -899,7 +898,7 @@ __TL;DR:__ GPT _usabile_ laddove il __contesto__ possa aiutare la traduzione
 
 ## Supporto alla _generazione di codice_ di programmazione
 
-{{< image src="./rewriting/bubble-sort-generate.gif" width="100%" max-h="70vh" >}}
+{{< image src="./rewriting/bubble-sort-generate.gif" width="100%" max-h="60vh" >}}
 
 (codice suggerito __inefficiente__, ma _funzionante_)
 
@@ -909,7 +908,7 @@ __TL;DR:__ GPT _usabile_ laddove il __contesto__ possa aiutare la traduzione
 
 ## Supporto alla _documentazione del codice_ di programmazione
 
-{{< image src="./rewriting/bubble-sort-explain.gif" width="100%" max-h="70vh" >}}
+{{< image src="./rewriting/bubble-sort-explain.gif" width="100%" max-h="60vh" >}}
 
 (spiegazione __corretta__ ed articolata)
 
@@ -963,16 +962,16 @@ __TL;DR:__ GPT _usabile_ laddove il __contesto__ possa aiutare la traduzione
 
 Si veda file [P000_ORD24.pdf](https://www.istruzione.it/esame_di_stato/202324/Italiano/Ordinaria/P000_ORD24.pdf) --- 7 pagine, ben dense
 
-{{< image src="./reading/inspection/high-school-exam-1.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/inspection/high-school-exam-1.png" width="100%" max-h="60vh" >}}
 
 ---
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./reading/inspection/high-school-exam-2.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/inspection/high-school-exam-2.png" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% col %}}
-<embed src="./P000_ORD24.pdf" width="100%" height="90%" />
+<embed src="./P000_ORD24.pdf" width="100%" height="100%" />
 {{% /col %}}
 {{% /multicol %}}
 
@@ -980,10 +979,10 @@ Si veda file [P000_ORD24.pdf](https://www.istruzione.it/esame_di_stato/202324/It
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./reading/inspection/high-school-exam-3a.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/inspection/high-school-exam-3a.png" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% col %}}
-{{< image src="./reading/inspection/P000_ORD24-pag2.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/inspection/P000_ORD24-pag2.png" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% /multicol %}}
 
@@ -1011,23 +1010,23 @@ Si veda file [P000_ORD24.pdf](https://www.istruzione.it/esame_di_stato/202324/It
 
 Si veda file [Policy-Generative-AI.pdf](www.unibo.it/it/allegati/policy-per-un-uso-etico-e-responsabile-dell2019intelligenza-artificiale-generativa-nelle-attivita-di-didattica-e-ricerca/@@download/file/Policy-Generative-AI.pdf)
 
-{{< image src="./reading/synthesis/policy-1.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/synthesis/policy-1.png" width="100%" max-h="65vh" >}}
 
 ---
 
-{{< image src="./reading/synthesis/policy-2.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/synthesis/policy-2.png" width="100%" max-h="70vh" >}}
 
 ---
 
-{{< image src="./reading/synthesis/policy-3.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/synthesis/policy-3.png" width="100%" max-h="70vh" >}}
 
 ---
 
-{{< image src="./reading/synthesis/policy-4.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/synthesis/policy-4.png" width="100%" max-h="70vh" >}}
 
 ---
 
-{{< image src="./reading/synthesis/policy-5.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/synthesis/policy-5.png" width="100%" max-h="70vh" >}}
 
 ---
 
@@ -1039,8 +1038,8 @@ Si veda file [Policy-Generative-AI.pdf](www.unibo.it/it/allegati/policy-per-un-u
 - Rischia di __omettere__ dalla sintesi: sfumature, eccezioni, _casi particolari_
 
 {{% fragment %}}
-> - Importante evitare di basarsi __esclusivamente__ sulla sintesi di GenAI per _interpretare_ un testo
-> - Può essere utile __fare domande__ _specifiche_ o _maliziose_ sul documento per catturare ulteriori _dettagli_
+> - Evitare di basarsi __esclusivamente__ sulla sintesi di GenAI per _interpretare_ un testo
+> - Utile __fare domande__ _specifiche_ o _maliziose_ sul documento per catturare ulteriori _dettagli_
 {{% /fragment %}}
 
 {{% /section %}}
@@ -1086,15 +1085,15 @@ Confrontiamo due __articoli scientifici__ (su _tema simile_):
 
 ---
 
-{{< image src="./reading/comparison/llm4kg-vs-harvest-1.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/comparison/llm4kg-vs-harvest-1.png" width="100%" max-h="70vh" >}}
 
 ---
 
-{{< image src="./reading/comparison/llm4kg-vs-harvest-2.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/comparison/llm4kg-vs-harvest-2.png" width="100%" max-h="70vh" >}}
 
 ---
 
-{{< image src="./reading/comparison/llm4kg-vs-harvest-3.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/comparison/llm4kg-vs-harvest-3.png" width="100%" max-h="70vh" >}}
 
 {{% /section %}}
 
@@ -1132,7 +1131,7 @@ Dicembre 2024:
 
 ---
 
-{{< image src="./reading/comparison/draftable.png" width="100%" max-h="80vh" link="https://draftable.com/compare/zRbeSplWOCxS" >}}
+{{< image src="./reading/comparison/draftable.png" width="100%" max-h="70vh" link="https://draftable.com/compare/zRbeSplWOCxS" >}}
 
 ---
 
@@ -1157,21 +1156,21 @@ Dicembre 2024:
 
 ---
 
-{{< image src="./reading/comparison/similarity-1.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/comparison/similarity-1.png" width="100%" max-h="70vh" >}}
 
 ---
 
-{{< image src="./reading/comparison/compilatio.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/comparison/compilatio.png" width="100%" max-h="70vh" >}}
 
 ---
 
 ## Esempio: analisi della _novelty_ di un documento
 
-{{< image src="./reading/comparison/similarity-2.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/comparison/similarity-2.png" width="100%" max-h="70vh" >}}
 
 ---
 
-{{< image src="./reading/comparison/similarity-3.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/comparison/similarity-3.png" width="100%" max-h="70vh" >}}
 
 {{% /section %}}
 
@@ -1181,19 +1180,19 @@ Dicembre 2024:
 
 ## Esempio: supporto alla _revisione paritaria_ di un documento ({{% color "red" %}}sconsigliabile!{{% /color %}})
 
-{{< image src="./reading/review/review-1.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/review/review-1.png" width="100%" max-h="70vh" >}}
 
 ---
 
-{{< image src="./reading/review/review-2.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/review/review-2.png" width="100%" max-h="70vh" >}}
 
 ---
 
-{{< image src="./reading/review/review-3.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/review/review-3.png" width="100%" max-h="70vh" >}}
 
 ---
 
-{{< image src="./reading/review/review-4.png" width="100%" max-h="80vh" >}}
+{{< image src="./reading/review/review-4.png" width="100%" max-h="70vh" >}}
 
 ---
 
@@ -1313,34 +1312,34 @@ possiamo velocemente _analizzare_ l'__attrattività dei corsi__ UniBO nel tempo
 
 ---
 
-{{< image src="./processing/actraction-1.png" width="100%" max-h="80vh" >}}
+{{< image src="./processing/actraction-1.png" width="100%" max-h="70vh" >}}
 
 ---
 
-{{< image src="./processing/actraction-2.png" width="100%" max-h="80vh" >}}
+{{< image src="./processing/actraction-2.png" width="100%" max-h="70vh" >}}
 
 ---
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./processing/actraction-3a.png" width="100%" max-h="80vh" >}}
+{{< image src="./processing/actraction-3a.png" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% col %}}
-{{< image src="./processing/actraction-3b.png" width="100%" max-h="80vh" >}}
+{{< image src="./processing/actraction-3b.png" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% /multicol %}}
 
 ---
 
-{{< image src="./processing/actraction-4.png" width="100%" max-h="80vh" >}}
+{{< image src="./processing/actraction-4.png" width="100%" max-h="70vh" >}}
 
 ---
 
-{{< image src="./processing/actraction-5.png" width="100%" max-h="80vh" >}}
+{{< image src="./processing/actraction-5.png" width="100%" max-h="70vh" >}}
 
 ---
 
-{{< image src="./processing/actraction-6.png" width="100%" max-h="80vh" >}}
+{{< image src="./processing/actraction-6.png" width="100%" max-h="70vh" >}}
 
 ---
 
@@ -1393,30 +1392,30 @@ In contesti _di ricerca_ più essere interessante __generare dati sintetici__, _
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="https://upload.wikimedia.org/wikipedia/commons/5/56/Iris_dataset_scatterplot.svg" width="100%" max-h="80vh" >}}
+{{< image src="https://upload.wikimedia.org/wikipedia/commons/5/56/Iris_dataset_scatterplot.svg" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% col %}}
 Nuova classe _sintetica_: "Iris Immagina", in giallo
 
-{{< image src="./processing/generation.png" width="100%" max-h="80vh" >}}
+{{< image src="./processing/generation.png" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% /multicol %}}
 
 ---
 
-{{< image src="./processing/generation-1.png" width="100%" max-h="80vh" >}}
+{{< image src="./processing/generation-1.png" width="100%" max-h="70vh" >}}
 
 ---
 
-{{< image src="./processing/generation-2.png" width="100%" max-h="80vh" >}}
+{{< image src="./processing/generation-2.png" width="100%" max-h="70vh" >}}
 
 ---
 
-{{< image src="./processing/generation-3.png" width="100%" max-h="80vh" >}}
+{{< image src="./processing/generation-3.png" width="100%" max-h="70vh" >}}
 
 ---
 
-{{< image src="./processing/generation-4.png" width="100%" max-h="80vh" >}}
+{{< image src="./processing/generation-4.png" width="100%" max-h="70vh" >}}
 
 ---
 
@@ -1468,7 +1467,7 @@ Notare che GenAI ha scelto __arbitrariamente__ (ma _ragionevolmente_):
 
 ---
 
-{{< image src="./processing/generation-5.png" width="100%" max-h="80vh" >}}
+{{< image src="./processing/generation-5.png" width="100%" max-h="70vh" >}}
 
 ---
 
@@ -1535,7 +1534,7 @@ Notare che GenAI ha scelto __arbitrariamente__ (ma _ragionevolmente_):
 
 ## Esempio: generazione di _foto_ di fiori _immaginari_
 
-{{< image src="./generation/imagegen-1.png" width="100%" max-h="80vh" >}}
+{{< image src="./generation/imagegen-1.png" width="100%" max-h="70vh" >}}
 
 ---
 
@@ -1562,7 +1561,7 @@ Virginica
 
 ---
 
-{{< image src="./generation/imagegen-3.png" width="100%" max-h="80vh" >}}
+{{< image src="./generation/imagegen-3.png" width="100%" max-h="70vh" >}}
 
 ---
 
@@ -1570,14 +1569,14 @@ Virginica
 {{% col %}}
 ### Tentativo 1
 
-{{< image src="./generation/immagina-1.png" width="100%" max-h="80vh" >}}
+{{< image src="./generation/immagina-1.png" width="100%" max-h="70vh" >}}
 
 {{% color "red" %}}(troppo irrealistica){{% /color %}}
 {{% /col %}}
 {{% col %}}
 ### Tentativo 2
 
-{{< image src="./generation/immagina-2.png" width="100%" max-h="80vh" >}}
+{{< image src="./generation/immagina-2.png" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% /multicol %}}
 
