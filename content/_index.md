@@ -73,26 +73,86 @@ Algoritmi di _IA_ in grado di __generare automaticamente__ _contenuti_, e.g.:
 
 ---
 
-## Modelli Fondazionali vs. Large Language Models
+## __Terminologia__: Modelli Fondazionali vs. _Large Language Models_
 
 {{< image src="./fm-vs-llm.webp" width="80%" max-h="70vh" alt="Diagramma di Venn che spiega come gli LLM siano un caso particolare di modelli fondazionali " link="https://thebabar.medium.com/essential-guide-to-foundation-models-and-large-language-models-27dab58f7404" >}}
 
 ---
 
+{{% section %}}
+
 ## GenAI con modello di consumo _as-a-Service_
 
-<br>
 {{< image src="./llm-concept.svg" width="100%" max-h="70vh" alt="Modello di consumo 'as a Service' per i modelli fondazionali" >}}
+
+---
+
+## GenAI con modello di consumo _as-a-Service_
+
+- Modelli di __costo__:
+    + ad __abbonamento__: si paga un _canone_ fisso mensile/annuale per avere accesso al servizio
+        * spesso contiene comunque _limiti_ di consumo
+    + a __consumo__: si paga in _proporzione_ all'uso effettivo del servizio
+
+- __Consumo__ è misurato in base allo _sforzo computazionale_ necessario per servire la richiesta:
+    + _token_ processati (per testo)
+    + quantità di _richieste_ effettuate per unità di tempo (minto, ore, giorno, mese)
+    + _dimensione_ dei dati processati (per immagini, audio, video)
+    + _complessità_ dello specifico _modello_ impiegato per per servire la richiesta
+
+- La __generazione__ da considerarsi un processo _stocastico_, per costruzione
+
+{{% fragment %}}
+> - La __qualità__ del servizio è soggetta a casualità e a _fluttuazioni_ dovute a:
+>    + _carico_ del servizio
+>    + scelta del modello, e relativo _aggiornamento_
+>    + _limiti_ di servizio eventualumente raggiunti nel _quanto di tempo_ corrente
+>    + caso
+{{% /fragment %}}
+
+{{% /section %}}
 
 ---
 
 {{% section %}}
 
-## Ciclo di apprendimento di GenAI
+## Ciclo di _apprendimento_ di GenAI
 
-
-<br>
 {{< image src="./dataflow.svg" width="100%" max-h="70vh" alt="Ciclo di apprendimento di GenAI" >}}
+
+---
+
+## Ciclo di _apprendimento_ di GenAI — __Conseguenze__ (pt. 1)
+
+- __Bias__ di __campionamento__: GenAI conosce _solo_ ciò su cui è stato _allenato_ + pia speranza che impari a _generalizzare_
+
+- L'apprendimento usa dati presi __dal Web__ + eventuali __dati aziendali__ del fornitore del servizio
+    + comprovato impiego delle _interazioni_ degli utenti predenti come _feedback_ per allenamenti successivi
+
+{{% fragment %}}
+##
+
+> - Informazioni di __nicchia__ possono <u>non</u> essere apprese correttamente (o affatto)
+> - Fondamentale __evitare di convididere__ informazioni _sensibili_, _confidenziali_, o protette da _diritti d'autore_
+{{% /fragment %}}
+
+---
+
+## Ciclo di _apprendimento_ di GenAI — __Conseguenze__ (pt. 2)
+
+- Cicli di apprendimento estramente __costosi__ in termini di _denaro_ e _risorse computazionali_...
+
+- ... eseguiti __periodicamente__ (settimane? mesi?) per migliorare la _qualità_ del servizio
+    + il modello di consumo _as-a-Service_ permette all'utente di avere accesso traspente al servizio _aggiornato_
+
+
+{{% fragment %}}
+##
+
+> - Informazioni __recenti__ potrebbero <u>non</u> essere state (ancora) _apprese_
+> - Rischio di ricevere risposte __datate__ o _manchevoli_ da GenAI
+> - GenAI dà l'_impressione_ di star imaprando __durante la conversazione__, ma in realtà lo fa _offline_
+{{% /fragment %}}
 
 ---
 
@@ -422,17 +482,21 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 ## Esempio: esplorazione sull'argomento ["Sistemi multi-agente"](https://en.wikipedia.org/wiki/Multi-agent_system), con _ChatGPT_
 
+<span class="hint">(un argomento complesso qualsiasi, scelgo un mio tema di ricerca così ho un metro di giudizio)</span>
+
+<br>
+
 > Un sistema multi-agente (MAS) è un tipo di sistema composto da __molteplici agenti indipendenti__ (ma _interattivi_), ciascuno capace di _percepire_ il proprio ambiente e di intraprendere _azioni_.
 > Gli agenti possono essere _modelli di IA_, programmi _software_, _robot_ e altre _entità computazionali_.
 > _Molteplici agenti_ possono _cooperare_ o verso un _obiettivo comune_ che va oltre le capacità dei singoli agenti, con una maggiore adattabilità e robustezza.
 
 (cf. <https://www.gartner.com/en/information-technology/glossary/multiagent-systems>)
 
-<br>
+<!-- <br>
 
 ### Link alla conversazione completa
 
-<https://chatgpt.com/share/e/679a41e7-e164-8004-8f01-d135dde3892c>
+<https://chatgpt.com/share/e/679a41e7-e164-8004-8f01-d135dde3892c> -->
 
 ---
 
@@ -441,7 +505,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 {{< image src="./search-engine/chatgpt/mas-1.png" width="100%" max-h="80vh" >}}
 {{% /col %}}
 {{% col %}}
-- Definizione __corretta__
+- Definizione sostanzialmente __corretta__
 {{% /col %}}
 {{% /multicol %}}
 
@@ -452,7 +516,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 {{< image src="./search-engine/chatgpt/mas-2.png" width="100%" max-h="80vh" >}}
 {{% /col %}}
 {{% col %}}
-- Caratteristiche __corrette__
+- Caratteristiche sostanzialmente __corrette__
 {{% /col %}}
 {{% /multicol %}}
 
@@ -628,15 +692,15 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 <br>
 
-- _Interrogare_ GenAI per generare testo da riusare __verbatim__ è un approccio {{% color "red" %}}naive{{% /color %}}
-    + ci si affida in toto a GenAI, col rischio che sfuggano _allucinazioni_
-    + si rischia di ereditare _bias_ ed _errori semantici_ senza accorgersene
+- __Interrogare__ GenAI per generare testo da riusare __verbatim__ è un approccio {{% color "red" %}}naïf{{% /color %}}
+    + ci si affida in toto a GenAI, col rischio che sfuggano {{% color "red" %}}allucinazioni{{% /color %}}
+    + si rischia di ereditare {{% color "red" %}}bias{{% /color %}} ed {{% color "red" %}}errori semantici{{% /color %}} senza accorgersene
 
 {{% fragment %}}
 
 > - Approccio più _furbo_: chiedere a GenAI di __rielaborare__ un testo grezzo o _parziale_
 >    + es. una lista di _cose da dire_, argomenti da trattare, etc.
->    + _controllo_ e _responsabilità_ del __filo del discorso__ rimane sull'utente
+>    + _controllo_ e _responsabilità_ del __filo del discorso__ rimangono sull'utente
 
 {{% /fragment %}}
 
@@ -652,10 +716,16 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 * farsi _assistere_ riguardo alla __forma__ del testo
 * __rivedere__ il testo prodotto per _errori_, _incongruenze_, _allucinazioni_
     + chiedere opportunamente _variazioni_ fino a soddisfazione
+* __rivedere__ eventuali _riferimenti_ a _fonti_ o _citazioni_ per _aderenza_
+* chiedersi se non ci sia __mancanza__ di _informazioni_ o _riferimenti_ importanti
 
 ---
 
 ## Esempio: scrittura _abstract_ di una _SRL_ inerente ["IA Neuro-Simbolica"](https://en.wikipedia.org/wiki/Neuro-symbolic_AI), con _ChatGPT_
+
+<span class="hint">(un argomento complesso qualsiasi, scelgo un mio interesse di ricerca ho un metro di giudizio)</span>
+
+<br>
 
 > IA __Neuro-Simbolica__: la combinazione di metodi _simbolici_ ["IA classica", NdA] con metodi basati su _reti neurali_ artificiali.
 
@@ -673,7 +743,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 ## Approccio 1 ({{% color "red" %}}Sconsigliato{{% /color %}}): Senza traccia
 
-(link alla [conversazione completa](https://chatgpt.com/share/e/679b94b4-93e4-8004-9fae-457ba9f4bf07))
+<!-- (link alla [conversazione completa](https://chatgpt.com/share/e/679b94b4-93e4-8004-9fae-457ba9f4bf07)) -->
 
 {{< image src="./rewriting/bad/nesy-slr-1.png" width="100%" max-h="80vh" >}}
 
@@ -719,7 +789,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 
 ## Approccio 2 (_Consigliato_): Con traccia
 
-(link alla [conversazione completa](https://chatgpt.com/share/e/679b94c5-17d0-8004-9b4a-6687418f3569))
+<!-- (link alla [conversazione completa](https://chatgpt.com/share/e/679b94c5-17d0-8004-9b4a-6687418f3569)) -->
 
 {{% multicol %}}
 {{% col %}}
@@ -797,7 +867,7 @@ __TL;DR:__ Google Translate è _preferibile_ laddove sia richiesta _precisione_
 
 ## Supporto alla _traduzione automatica_ (pt. 4)
 
-{{< image src="./rewriting/translate-copilot.gif" width="100%" max-h="80vh" >}}
+{{< image src="./rewriting/translate-copilot.gif" width="100%" max-h="70vh" >}}
 
 <br>
 
@@ -811,7 +881,7 @@ __TL;DR:__ GPT _usabile_ laddove il __contesto__ possa aiutare la traduzione
 
 {{% multicol %}}
 {{% col %}}
-{{< image src="./rewriting/translate-with-style.png" width="100%" max-h="80vh" >}}
+{{< image src="./rewriting/translate-with-style.png" width="100%" max-h="70vh" >}}
 {{% /col %}}
 {{% col class="col-6" %}}
 - Richiesta di _transposizione_ in lingua con uno __stile specifico__
@@ -829,7 +899,7 @@ __TL;DR:__ GPT _usabile_ laddove il __contesto__ possa aiutare la traduzione
 
 ## Supporto alla _generazione di codice_ di programmazione
 
-{{< image src="./rewriting/bubble-sort-generate.gif" width="100%" max-h="80vh" >}}
+{{< image src="./rewriting/bubble-sort-generate.gif" width="100%" max-h="70vh" >}}
 
 (codice suggerito __inefficiente__, ma _funzionante_)
 
@@ -839,7 +909,9 @@ __TL;DR:__ GPT _usabile_ laddove il __contesto__ possa aiutare la traduzione
 
 ## Supporto alla _documentazione del codice_ di programmazione
 
-{{< image src="./rewriting/bubble-sort-explain.gif" width="100%" max-h="80vh" >}}
+{{< image src="./rewriting/bubble-sort-explain.gif" width="100%" max-h="70vh" >}}
+
+(spiegazione __corretta__ ed articolata)
 
 {{% /section %}}
 
@@ -885,6 +957,8 @@ __TL;DR:__ GPT _usabile_ laddove il __contesto__ possa aiutare la traduzione
 
 ---
 
+{{% section %}}
+
 ## Esempio: estrazione dalla traccia della __prima prova di Italiano__, _maturità 2024_
 
 Si veda file [P000_ORD24.pdf](https://www.istruzione.it/esame_di_stato/202324/Italiano/Ordinaria/P000_ORD24.pdf) --- 7 pagine, ben dense
@@ -915,6 +989,22 @@ Si veda file [P000_ORD24.pdf](https://www.istruzione.it/esame_di_stato/202324/It
 
 ---
 
+## Commenti
+
+- GenAI riesce a __selezionare__ le informazioni _richieste_ dal documento _fornito_
+    + e __riportarne__ una _sintesi_
+
+- L'idea è di usare GenAI come un __motore di ricerca__ specifico per il/i documento/i in questione
+
+{{% fragment %}}
+> - Al crescere della dimensione del documento, aumenta la probabilità di __allucinazioni__, distorsioni, __lacune__
+{{% /fragment %}}
+
+
+{{% /section %}}
+
+---
+
 {{% section %}}
 
 ## Esempio: __sintesi__ di documento (_Policy di Ateno su GenAI_)
@@ -938,6 +1028,20 @@ Si veda file [Policy-Generative-AI.pdf](www.unibo.it/it/allegati/policy-per-un-u
 ---
 
 {{< image src="./reading/synthesis/policy-5.png" width="100%" max-h="80vh" >}}
+
+---
+
+## Commenti
+
+- GenAI riesce a __sintetizzare__ in poche righe intere pagine di _policy_
+    + cogliendo il _senso_ generale del documento
+
+- Rischia di __omettere__ dalla sintesi: sfumature, eccezioni, _casi particolari_
+
+{{% fragment %}}
+> - Importante evitare di basarsi __esclusivamente__ sulla sintesi di GenAI per _interpretare_ un testo
+> - Può essere utile __fare domande__ _specifiche_ o _maliziose_ sul documento per catturare ulteriori _dettagli_
+{{% /fragment %}}
 
 {{% /section %}}
 
