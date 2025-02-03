@@ -1393,24 +1393,135 @@ Notare che GenAI ha scelto __arbitrariamente__ (ma _ragionevolmente_):
 
 ---
 
+{{% section %}}
+
 {{< slide id="content-generation" >}}
 
 ## GenAI come assistente alla _generazione di contenuti_
 
 ### Razionale
-### Consigli sempre validi
+
+- GenAI può essere usata per _generare contenuti_ di vario genere (sia da _zero_ che _modificando_ contenuti esistenti)
+    + e.g., _immagini_, _video_, _audio_ etc.
+
+- Per la generazione di __diagrammi__, grafici, etc. è meglio _indurre_ GenAI a generare _codice_, da _renderizzare_ poi con strumenti _dedicati_
+    + e.g., codice Python/[Matplotlib](https://matplotlib.org/) per grafici, codice [PlantUML](https://plantuml.com/) per diagrammi UML, etc.
+
+- Può essere utile chiedere a GenAI di generare __loghi__, concept, copertine, etc. per _ispirazione_
+    + in generale, GenAI funziona bene dove l'_intuizione_ vale più della _precisione_
 
 ---
 
+## GenAI come assistente alla _generazione di contenuti_
+
+### Consigli sempre validi
+
+- __Verificare__ che i contenuti generati siano _originali_ e _non violino_ _copyright_
+
+- __Non delegare__ a GenAI la _scelta_ di _contenuti critici_ o _sensibili_
+    + e.g., _scelta_ di un _logo_ per un'azienda, _scelta_ di un _graphical abstract_ per un articolo, etc.
+
+- __Non fidarsi ciecamente__ dei risultati, _verificare_ che siano _corretti_, e non contengano _bias_ o _allucinazioni_
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
 ## Esempio: generazione di _foto_ di fiori _immaginari_
 
-TBD
+{{< image src="./generation/imagegen-1.png" width="100%" max-h="80vh" >}}
+
+---
+
+{{% multicol %}}
+{{% col %}}
+Setosa
+![](./generation/setosa.png)
+
+<https://www.phytoimages.siu.edu/imgs/Cusman1/na/Iridaceae_Iris_setosa_82970.html>
+{{% /col %}}
+{{% col %}}
+Versicolor
+![](./generation/versicolor.jpg)
+
+<https://mgnv.org/plants/native-plants/perennials/iris-virginica/>
+{{% /col %}}
+{{% col %}}
+Virginica
+![](./generation/virginica.webp)
+
+<https://bhwp.org/item/northern-blue-flag-iris-iris-versicolor/#tab-wccpf_fields_tab>
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+{{< image src="./generation/imagegen-3.png" width="100%" max-h="80vh" >}}
+
+---
+
+{{% multicol %}}
+{{% col %}}
+### Tentativo 1
+
+{{< image src="./generation/immagina-1.png" width="100%" max-h="80vh" >}}
+
+{{% color "red" %}}(troppo irrealistica){{% /color %}}
+{{% /col %}}
+{{% col %}}
+### Tentativo 2
+
+{{< image src="./generation/immagina-2.png" width="100%" max-h="80vh" >}}
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+> Non è così facile ottenere elevata __verosimiglianza__ nelle immagini generate
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## Esempio: generazione di _immagini di copertina_
+
+Come ho ottenuto la copertina di questa presentazione?
+
+{{< image src="./generation/front-1.png" width="100%" max-h="70vh" >}}
 
 ---
 
 ## Esempio: generazione di _immagini di copertina_
 
-TBD
+Noto un probabile __bias__: studenti/docenti stereotipati come _uomini bianchi_
+
+{{< image src="./generation/front-2.png" width="100%" max-h="70vh" >}}
+
+---
+
+## Esempio: generazione di _immagini di copertina_
+
+Posso richiedere una __modifica puntuale__ (notare la selezione dell'_area da modificare_)
+
+{{< image src="./generation/front-3a.png" width="100%" max-h="70vh" >}}
+
+---
+
+## Esempio: generazione di _immagini di copertina_
+
+Il risultato
+
+{{< image src="./generation/front-3b.png" width="100%" max-h="70vh" >}}
+
+---
+
+> Non è così facile __controllare__ con _precisione_ la generazione di immagini
+
+{{% /section %}}
 
 ---
 
