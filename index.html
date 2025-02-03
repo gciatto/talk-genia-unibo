@@ -90,7 +90,7 @@
 <img src="./foundation-models.png" alt="Concept dei modelli fondazionali" style="max-width: 95vw; max-height: 60vh; object-fit: contain; ">
 
 </section><section>
-<h2 id="modelli-fondazionali-vs-large-language-models">Modelli Fondazionali vs. Large Language Models</h2>
+<h2 id="__terminologia__-modelli-fondazionali-vs-_large-language-models_"><strong>Terminologia</strong>: Modelli Fondazionali vs. <em>Large Language Models</em></h2>
 
 
 
@@ -104,23 +104,102 @@
 </a>
 
 </section><section>
+
+
+<section data-shortcode-section="">
 <h2 id="genai-con-modello-di-consumo-_as-a-service_">GenAI con modello di consumo <em>as-a-Service</em></h2>
-<br>
-
-
-
-
-
-
 <img src="./llm-concept.svg" alt="Modello di consumo 'as a Service' per i modelli fondazionali" style="width: 100%; max-width: 95vw; max-height: 70vh; object-fit: contain; ">
+</section><section>
+<h2 id="genai-con-modello-di-consumo-_as-a-service_-1">GenAI con modello di consumo <em>as-a-Service</em></h2>
+<ul>
+<li>
+<p>Modelli di <strong>costo</strong>:</p>
+<ul>
+<li>ad <strong>abbonamento</strong>: si paga un <em>canone</em> fisso mensile/annuale per avere accesso al servizio
+<ul>
+<li>spesso contiene comunque <em>limiti</em> di consumo</li>
+</ul>
+</li>
+<li>a <strong>consumo</strong>: si paga in <em>proporzione</em> all’uso effettivo del servizio</li>
+</ul>
+</li>
+<li>
+<p><strong>Consumo</strong> è misurato in base allo <em>sforzo computazionale</em> necessario per servire la richiesta:</p>
+<ul>
+<li><em>token</em> processati (per testo)</li>
+<li>quantità di <em>richieste</em> effettuate per unità di tempo (minto, ore, giorno, mese)</li>
+<li><em>dimensione</em> dei dati processati (per immagini, audio, video)</li>
+<li><em>complessità</em> dello specifico <em>modello</em> impiegato per per servire la richiesta</li>
+</ul>
+</li>
+<li>
+<p>La <strong>generazione</strong> da considerarsi un processo <em>stocastico</em>, per costruzione</p>
+</li>
+</ul>
+<span class="fragment ">
+  <blockquote>
+<ul>
+<li>La <strong>qualità</strong> del servizio è soggetta a casualità e a <em>fluttuazioni</em> dovute a:
+<ul>
+<li><em>carico</em> del servizio</li>
+<li>scelta del modello, e relativo <em>aggiornamento</em></li>
+<li><em>limiti</em> di servizio eventualumente raggiunti nel <em>quanto di tempo</em> corrente</li>
+<li>caso</li>
+</ul>
+</li>
+</ul></blockquote>
+</span>
 
+</section>
 </section><section>
 
 
 <section data-shortcode-section="">
-<h2 id="ciclo-di-apprendimento-di-genai">Ciclo di apprendimento di GenAI</h2>
-<br>
+<h2 id="ciclo-di-_apprendimento_-di-genai">Ciclo di <em>apprendimento</em> di GenAI</h2>
 <img src="./dataflow.svg" alt="Ciclo di apprendimento di GenAI" style="width: 100%; max-width: 95vw; max-height: 70vh; object-fit: contain; ">
+</section><section>
+<h2 id="ciclo-di-_apprendimento_-di-genai-__conseguenze__-pt-1">Ciclo di <em>apprendimento</em> di GenAI —&nbsp;<strong>Conseguenze</strong> (pt. 1)</h2>
+<ul>
+<li>
+<p><strong>Bias</strong> di <strong>campionamento</strong>: GenAI conosce <em>solo</em> ciò su cui è stato <em>allenato</em> + pia speranza che impari a <em>generalizzare</em></p>
+</li>
+<li>
+<p>L’apprendimento usa dati presi <strong>dal Web</strong> + eventuali <strong>dati aziendali</strong> del fornitore del servizio</p>
+<ul>
+<li>comprovato impiego delle <em>interazioni</em> degli utenti predenti come <em>feedback</em> per allenamenti successivi</li>
+</ul>
+</li>
+</ul>
+<span class="fragment ">
+  <h2 id="heading"></h2>
+<blockquote>
+<ul>
+<li>Informazioni di <strong>nicchia</strong> possono <u>non</u> essere apprese correttamente (o affatto)</li>
+<li>Fondamentale <strong>evitare di convididere</strong> informazioni <em>sensibili</em>, <em>confidenziali</em>, o protette da <em>diritti d’autore</em></li>
+</ul></blockquote>
+</span>
+</section><section>
+<h2 id="ciclo-di-_apprendimento_-di-genai-__conseguenze__-pt-2">Ciclo di <em>apprendimento</em> di GenAI —&nbsp;<strong>Conseguenze</strong> (pt. 2)</h2>
+<ul>
+<li>
+<p>Cicli di apprendimento estramente <strong>costosi</strong> in termini di <em>denaro</em> e <em>risorse computazionali</em>…</p>
+</li>
+<li>
+<p>… eseguiti <strong>periodicamente</strong> (settimane? mesi?) per migliorare la <em>qualità</em> del servizio</p>
+<ul>
+<li>il modello di consumo <em>as-a-Service</em> permette all’utente di avere accesso traspente al servizio <em>aggiornato</em></li>
+</ul>
+</li>
+</ul>
+<span class="fragment ">
+  <h2 id="heading"></h2>
+<blockquote>
+<ul>
+<li>Informazioni <strong>recenti</strong> potrebbero <u>non</u> essere state (ancora) <em>apprese</em></li>
+<li>Rischio di ricevere risposte <strong>datate</strong> o <em>manchevoli</em> da GenAI</li>
+<li>GenAI dà l’<em>impressione</em> di star imaprando <strong>durante la conversazione</strong>, ma in realtà lo fa <em>offline</em></li>
+</ul></blockquote>
+</span>
 </section><section>
 <h2 id="alcune-soluzioni-tecnologiche-permettono-di-_scegliere_-pt-1">Alcune soluzioni tecnologiche permettono di <em>scegliere</em> (pt. 1)</h2>
 <img src="./logo-chatgpt.svg" alt="" style="height: 2em; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
@@ -481,20 +560,24 @@
 
 <section data-shortcode-section="">
 <h2 id="esempio-esplorazione-sullargomento-sistemi-multi-agentehttpsenwikipediaorgwikimulti-agent_system-con-_chatgpt_">Esempio: esplorazione sull’argomento <a href="https://en.wikipedia.org/wiki/Multi-agent_system">“Sistemi multi-agente”</a>, con <em>ChatGPT</em></h2>
+<p><span class="hint">(un argomento complesso qualsiasi, scelgo un mio tema di ricerca così ho un metro di giudizio)</span></p>
+<br>
 <blockquote>
 <p>Un sistema multi-agente (MAS) è un tipo di sistema composto da <strong>molteplici agenti indipendenti</strong> (ma <em>interattivi</em>), ciascuno capace di <em>percepire</em> il proprio ambiente e di intraprendere <em>azioni</em>.
 Gli agenti possono essere <em>modelli di IA</em>, programmi <em>software</em>, <em>robot</em> e altre <em>entità computazionali</em>.
 <em>Molteplici agenti</em> possono <em>cooperare</em> o verso un <em>obiettivo comune</em> che va oltre le capacità dei singoli agenti, con una maggiore adattabilità e robustezza.</p></blockquote>
 <p>(cf. <a href="https://www.gartner.com/en/information-technology/glossary/multiagent-systems">https://www.gartner.com/en/information-technology/glossary/multiagent-systems</a>)</p>
-<br>
-<h3 id="link-alla-conversazione-completa">Link alla conversazione completa</h3>
-<p><a href="https://chatgpt.com/share/e/679a41e7-e164-8004-8f01-d135dde3892c">https://chatgpt.com/share/e/679a41e7-e164-8004-8f01-d135dde3892c</a></p>
+<!-- <br>
+
+### Link alla conversazione completa
+
+<https://chatgpt.com/share/e/679a41e7-e164-8004-8f01-d135dde3892c> -->
 </section><section>
 <div class="container w-100 m-0 p-0">
     <div class="row "><div class="col " style="text-align: center;"><img src="./search-engine/chatgpt/mas-1.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
 </div>
 <div class="col " style="text-align: center;"><ul>
-<li>Definizione <strong>corretta</strong></li>
+<li>Definizione sostanzialmente <strong>corretta</strong></li>
 </ul>
 </div>
 </div>
@@ -504,7 +587,7 @@ Gli agenti possono essere <em>modelli di IA</em>, programmi <em>software</em>, <
     <div class="row "><div class="col " style="text-align: center;"><img src="./search-engine/chatgpt/mas-2.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
 </div>
 <div class="col " style="text-align: center;"><ul>
-<li>Caratteristiche <strong>corrette</strong></li>
+<li>Caratteristiche sostanzialmente <strong>corrette</strong></li>
 </ul>
 </div>
 </div>
@@ -711,10 +794,10 @@ Gli agenti possono essere <em>modelli di IA</em>, programmi <em>software</em>, <
 <h3 id="razionale-1">Razionale</h3>
 <br>
 <ul>
-<li><em>Interrogare</em> GenAI per generare testo da riusare <strong>verbatim</strong> è un approccio <span style="color: red;">naive</span>
+<li><strong>Interrogare</strong> GenAI per generare testo da riusare <strong>verbatim</strong> è un approccio <span style="color: red;">naïf</span>
 <ul>
-<li>ci si affida in toto a GenAI, col rischio che sfuggano <em>allucinazioni</em></li>
-<li>si rischia di ereditare <em>bias</em> ed <em>errori semantici</em> senza accorgersene</li>
+<li>ci si affida in toto a GenAI, col rischio che sfuggano <span style="color: red;">allucinazioni</span></li>
+<li>si rischia di ereditare <span style="color: red;">bias</span> ed <span style="color: red;">errori semantici</span> senza accorgersene</li>
 </ul>
 </li>
 </ul>
@@ -726,7 +809,7 @@ Gli agenti possono essere <em>modelli di IA</em>, programmi <em>software</em>, <
 <li>Approccio più <em>furbo</em>: chiedere a GenAI di <strong>rielaborare</strong> un testo grezzo o <em>parziale</em>
 <ul>
 <li>es. una lista di <em>cose da dire</em>, argomenti da trattare, etc.</li>
-<li><em>controllo</em> e <em>responsabilità</em> del <strong>filo del discorso</strong> rimane sull’utente</li>
+<li><em>controllo</em> e <em>responsabilità</em> del <strong>filo del discorso</strong> rimangono sull’utente</li>
 </ul>
 </li>
 </ul></blockquote>
@@ -745,9 +828,13 @@ Gli agenti possono essere <em>modelli di IA</em>, programmi <em>software</em>, <
 <li>chiedere opportunamente <em>variazioni</em> fino a soddisfazione</li>
 </ul>
 </li>
+<li><strong>rivedere</strong> eventuali <em>riferimenti</em> a <em>fonti</em> o <em>citazioni</em> per <em>aderenza</em></li>
+<li>chiedersi se non ci sia <strong>mancanza</strong> di <em>informazioni</em> o <em>riferimenti</em> importanti</li>
 </ul>
 </section><section>
 <h2 id="esempio-scrittura-_abstract_-di-una-_srl_-inerente-ia-neuro-simbolicahttpsenwikipediaorgwikineuro-symbolic_ai-con-_chatgpt_">Esempio: scrittura <em>abstract</em> di una <em>SRL</em> inerente <a href="https://en.wikipedia.org/wiki/Neuro-symbolic_AI">“IA Neuro-Simbolica”</a>, con <em>ChatGPT</em></h2>
+<p><span class="hint">(un argomento complesso qualsiasi, scelgo un mio interesse di ricerca ho un metro di giudizio)</span></p>
+<br>
 <blockquote>
 <p>IA <strong>Neuro-Simbolica</strong>: la combinazione di metodi <em>simbolici</em> [“IA classica”, NdA] con metodi basati su <em>reti neurali</em> artificiali.</p></blockquote>
 <p>(cf. <a href="https://ip.ios.semcs.net/articles/ai-communications/aic210084">Neuro-symbolic artificial intelligence</a>)</p>
@@ -761,7 +848,7 @@ Viene seguito un <em>approccio metodologico formale</em> per ridurre le distorsi
 
 <section data-shortcode-section="">
 <h2 id="approccio-1-span-stylecolor-redsconsigliatospan-senza-traccia">Approccio 1 (<span style="color: red;">Sconsigliato</span>): Senza traccia</h2>
-<p>(link alla <a href="https://chatgpt.com/share/e/679b94b4-93e4-8004-9fae-457ba9f4bf07">conversazione completa</a>)</p>
+<!-- (link alla [conversazione completa](https://chatgpt.com/share/e/679b94b4-93e4-8004-9fae-457ba9f4bf07)) -->
 <img src="./rewriting/bad/nesy-slr-1.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
 </section><section>
 <div class="container w-100 m-0 p-0">
@@ -799,7 +886,7 @@ Viene seguito un <em>approccio metodologico formale</em> per ridurre le distorsi
 
 <section data-shortcode-section="">
 <h2 id="approccio-2-_consigliato_-con-traccia">Approccio 2 (<em>Consigliato</em>): Con traccia</h2>
-<p>(link alla <a href="https://chatgpt.com/share/e/679b94c5-17d0-8004-9b4a-6687418f3569">conversazione completa</a>)</p>
+<!-- (link alla [conversazione completa](https://chatgpt.com/share/e/679b94c5-17d0-8004-9b4a-6687418f3569)) -->
 <div class="container w-100 m-0 p-0">
     <div class="row "><div class="col " style="text-align: center;"><img src="./rewriting/nesy-slr-1.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
 </div>
@@ -857,14 +944,14 @@ Viene seguito un <em>approccio metodologico formale</em> per ridurre le distorsi
 </section><section>
 <h3 id="altri-tipi-di-supporto-alla-scrittura-3">Altri tipi di supporto alla scrittura</h3>
 <h2 id="supporto-alla-_traduzione-automatica_-pt-4">Supporto alla <em>traduzione automatica</em> (pt. 4)</h2>
-<img src="./rewriting/translate-copilot.gif" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+<img src="./rewriting/translate-copilot.gif" alt="" style="width: 100%; max-width: 95vw; max-height: 70vh; object-fit: contain; ">
 <br>
 <p><strong>TL;DR:</strong> GPT <em>usabile</em> laddove il <strong>contesto</strong> possa aiutare la traduzione</p>
 </section><section>
 <h3 id="altri-tipi-di-supporto-alla-scrittura-4">Altri tipi di supporto alla scrittura</h3>
 <h2 id="supporto-alla-_traduzione-automatica_-pt-5">Supporto alla <em>traduzione automatica</em> (pt. 5)</h2>
 <div class="container w-100 m-0 p-0">
-    <div class="row "><div class="col " style="text-align: center;"><img src="./rewriting/translate-with-style.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+    <div class="row "><div class="col " style="text-align: center;"><img src="./rewriting/translate-with-style.png" alt="" style="width: 100%; max-width: 95vw; max-height: 70vh; object-fit: contain; ">
 </div>
 <div class="col col-6" style="text-align: center;"><ul>
 <li>Richiesta di <em>transposizione</em> in lingua con uno <strong>stile specifico</strong></li>
@@ -881,12 +968,13 @@ Viene seguito un <em>approccio metodologico formale</em> per ridurre le distorsi
 <section data-shortcode-section="">
 <h3 id="altri-tipi-di-supporto-alla-scrittura">Altri tipi di supporto alla scrittura</h3>
 <h2 id="supporto-alla-_generazione-di-codice_-di-programmazione">Supporto alla <em>generazione di codice</em> di programmazione</h2>
-<img src="./rewriting/bubble-sort-generate.gif" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+<img src="./rewriting/bubble-sort-generate.gif" alt="" style="width: 100%; max-width: 95vw; max-height: 70vh; object-fit: contain; ">
 <p>(codice suggerito <strong>inefficiente</strong>, ma <em>funzionante</em>)</p>
 </section><section>
 <h3 id="altri-tipi-di-supporto-alla-scrittura-1">Altri tipi di supporto alla scrittura</h3>
 <h2 id="supporto-alla-_documentazione-del-codice_-di-programmazione">Supporto alla <em>documentazione del codice</em> di programmazione</h2>
-<img src="./rewriting/bubble-sort-explain.gif" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+<img src="./rewriting/bubble-sort-explain.gif" alt="" style="width: 100%; max-width: 95vw; max-height: 70vh; object-fit: contain; ">
+<p>(spiegazione <strong>corretta</strong> ed articolata)</p>
 
 </section>
 </section>
@@ -946,18 +1034,13 @@ Viene seguito un <em>approccio metodologico formale</em> per ridurre le distorsi
 </li>
 </ul>
 </section><section>
+
+
+<section data-shortcode-section="">
 <h2 id="esempio-estrazione-dalla-traccia-della-__prima-prova-di-italiano__-_maturità-2024_">Esempio: estrazione dalla traccia della <strong>prima prova di Italiano</strong>, <em>maturità 2024</em></h2>
 <p>Si veda file <a href="https://www.istruzione.it/esame_di_stato/202324/Italiano/Ordinaria/P000_ORD24.pdf">P000_ORD24.pdf</a> — 7 pagine, ben dense</p>
-
-
-
-
-
-
 <img src="./reading/inspection/high-school-exam-1.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
-
 </section><section>
-
 <div class="container w-100 m-0 p-0">
     <div class="row "><div class="col " style="text-align: center;"><img src="./reading/inspection/high-school-exam-2.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
 </div>
@@ -966,7 +1049,6 @@ Viene seguito un <em>approccio metodologico formale</em> per ridurre le distorsi
 </div>
 </div>
 </section><section>
-
 <div class="container w-100 m-0 p-0">
     <div class="row "><div class="col " style="text-align: center;"><img src="./reading/inspection/high-school-exam-3a.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
 </div>
@@ -974,6 +1056,27 @@ Viene seguito un <em>approccio metodologico formale</em> per ridurre le distorsi
 </div>
 </div>
 </div>
+</section><section>
+<h2 id="commenti">Commenti</h2>
+<ul>
+<li>
+<p>GenAI riesce a <strong>selezionare</strong> le informazioni <em>richieste</em> dal documento <em>fornito</em></p>
+<ul>
+<li>e <strong>riportarne</strong> una <em>sintesi</em></li>
+</ul>
+</li>
+<li>
+<p>L’idea è di usare GenAI come un <strong>motore di ricerca</strong> specifico per il/i documento/i in questione</p>
+</li>
+</ul>
+<span class="fragment ">
+  <blockquote>
+<ul>
+<li>Al crescere della dimensione del documento, aumenta la probabilità di <strong>allucinazioni</strong>, distorsioni, <strong>lacune</strong></li>
+</ul></blockquote>
+</span>
+
+</section>
 </section><section>
 
 
@@ -989,6 +1092,26 @@ Viene seguito un <em>approccio metodologico formale</em> per ridurre le distorsi
 <img src="./reading/synthesis/policy-4.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
 </section><section>
 <img src="./reading/synthesis/policy-5.png" alt="" style="width: 100%; max-width: 95vw; max-height: 80vh; object-fit: contain; ">
+</section><section>
+<h2 id="commenti">Commenti</h2>
+<ul>
+<li>
+<p>GenAI riesce a <strong>sintetizzare</strong> in poche righe intere pagine di <em>policy</em></p>
+<ul>
+<li>cogliendo il <em>senso</em> generale del documento</li>
+</ul>
+</li>
+<li>
+<p>Rischia di <strong>omettere</strong> dalla sintesi: sfumature, eccezioni, <em>casi particolari</em></p>
+</li>
+</ul>
+<span class="fragment ">
+  <blockquote>
+<ul>
+<li>Importante evitare di basarsi <strong>esclusivamente</strong> sulla sintesi di GenAI per <em>interpretare</em> un testo</li>
+<li>Può essere utile <strong>fare domande</strong> <em>specifiche</em> o <em>maliziose</em> sul documento per catturare ulteriori <em>dettagli</em></li>
+</ul></blockquote>
+</span>
 
 </section>
 </section><section>
