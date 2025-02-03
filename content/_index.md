@@ -1132,13 +1132,13 @@ Dicembre 2024:
 - GenAI può essere usato per __elaborare dati__, anche _strutturati_, _semi-strutturati_, o _non strutturati_
     + e.g., _tabelle_, _dataset_, etc.
 
-- Vari tipi di elaborazione possibile, es:
+- Vari __tipi di elaborazione__ possibili, es:
     - (semplicifi) operazioni di _aggregazione_ o _filtraggio_ di dati
     - _visualizzazione_ dei dati
     - creazione di (semplici) modelli _predittivi_
-    - generazione di dati __sintetici__
+    - _generazione_ di dati _sintetici_
 
-- Si istruisce GenAI ad operare come un __analista dati__ o un _data scientist_
+- Si istruisce GenAI ad operare come un __analista dati__ o un __data scientist__
     + fornendo i _dati_ e le operazioni da _eseguire_, valutando i _risultati_
 
 ---
@@ -1169,7 +1169,7 @@ Dicembre 2024:
 - Fare richieste _precise_, _chiare_, e _possibili_ (rispetto ai dati forniti)
     + riguardanti operazioni che _in linea di principio_ __comprendi__ e che __potresti fare senza GenAI__
 
-- _Non_ fidarsi ciecamente dei risultati, _verificare_ che siano _corretti_
+- __Non fidarsi ciecamente__ dei risultati, _verificare_ che siano _corretti_
     + specie laddove siano svolti _calcoli_ su dati _numerici_
 
 - Chiedere il __codice sorgente__ delle operazioni svolte, per _verificarle_, e renderle __riproducibili__
@@ -1179,15 +1179,217 @@ Dicembre 2024:
 
 ---
 
+{{% section %}}
+
 ## Esempio: studio _attrattività_ dei corsi UniBO
 
-TBD
+Sfruttando gli [open-data di Ateneo](https://dati.unibo.it/dataset/degree-programmes-figures),
+e ChatGPT,
+possiamo velocemente _analizzare_ l'__attrattività dei corsi__ UniBO nel tempo
+
+<br>
+
+{{% fragment %}}
+
+### Passi concettuali
+
+1. [Manuale] __scaricare__ i file _CSV_ con i dati dei corsi, _per ogni anno accademico_
+2. __convogliare__ tutti i dati in un'unica tabella
+3. __aggregare__ i dati per _categoria del CdL_
+4. __graficare__ tante _linee temporali_ quante sono le _categorie_ di CdL
+5. [Manuale] __interpretare__ i grafici
+
+{{% /fragment %}}
+
+<br>
+
+{{% fragment %}}
+{{< image src="./processing/actraction.png" width="100%" max-h="40vh" >}}
+{{% /fragment %}}
 
 ---
 
+{{< image src="./processing/actraction-1.png" width="100%" max-h="80vh" >}}
+
+---
+
+{{< image src="./processing/actraction-2.png" width="100%" max-h="80vh" >}}
+
+---
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="./processing/actraction-3a.png" width="100%" max-h="80vh" >}}
+{{% /col %}}
+{{% col %}}
+{{< image src="./processing/actraction-3b.png" width="100%" max-h="80vh" >}}
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+{{< image src="./processing/actraction-4.png" width="100%" max-h="80vh" >}}
+
+---
+
+{{< image src="./processing/actraction-5.png" width="100%" max-h="80vh" >}}
+
+---
+
+{{< image src="./processing/actraction-6.png" width="100%" max-h="80vh" >}}
+
+---
+
+## Esempio: studio _attrattività_ dei corsi UniBO
+
+### Commenti
+
+<br>
+
+- Rimane da __verificare__ che il _codice generato_ produca _davvero_ i risultati mostrati da GenAI
+
+- Il __codice__ generato da GenAI è ciò che rende l'esercizio _ispezionabile_ e _ripetibile_
+
+- {{% color "red" %}}Non è saggio delegare{{% /color %}} un aspetto __decisionale__ del processo a GenAI
+    + e.g., __interpretare__ i risultati come _successo_ o _fallimento_ di una politica accademica
+    + e.g., __categorizzare i CdL__ sulla base del loro _nome_
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
 ## Esempio: generazione di _dati sintetici_
 
-TBD
+In contesti _di ricerca_ più essere interessante __generare dati sintetici__, _simili_ a dati reali esistenti
+
+<br>
+
+{{% fragment %}}
+
+### Dettagli
+
+(Comunemente, ci vuole __controllabilità__ del _processo_ di generazione)
+
+1. __Senza GenAI__, si procede così:
+    1. [Difficile, error-prone] stima della _distribuzione di probabilità_ dei dati reali
+    2. _campionamento_ da questa distribuzione
+
+2. __Con GenAI__, si evita la difficoltà del punto 1.1:
+    1. istruire GenAI sulle _differenze attese_ rispetto ai _dati reali_, forniti
+    2. richiesta di _generazione_
+    3. _reiterare_ fino a _soddisfazione_
+
+{{% /fragment %}}
+
+---
+
+## Esempio: generazione di _dati sintetici_ sul [datset Iris](https://it.wikipedia.org/wiki/Dataset_Iris)
+
+{{% multicol %}}
+{{% col %}}
+{{< image src="https://upload.wikimedia.org/wikipedia/commons/5/56/Iris_dataset_scatterplot.svg" width="100%" max-h="80vh" >}}
+{{% /col %}}
+{{% col %}}
+Nuova classe _sintetica_: "Iris Immagina", in giallo
+
+{{< image src="./processing/generation.png" width="100%" max-h="80vh" >}}
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+{{< image src="./processing/generation-1.png" width="100%" max-h="80vh" >}}
+
+---
+
+{{< image src="./processing/generation-2.png" width="100%" max-h="80vh" >}}
+
+---
+
+{{< image src="./processing/generation-3.png" width="100%" max-h="80vh" >}}
+
+---
+
+{{< image src="./processing/generation-4.png" width="100%" max-h="80vh" >}}
+
+---
+
+```python
+import pandas as pd
+import numpy as np
+
+# Caricare il dataset originale
+file_path = "/mnt/data/iris.csv"
+iris_df = pd.read_csv(file_path)
+
+# Aggiungere i nomi delle colonne corretti
+iris_df.columns = ["sepal_length", "sepal_width", "petal_length", "petal_width", "class"]
+
+# Definire i parametri per la nuova classe
+num_samples = 150
+sepal_length = np.random.normal(loc=7.0, scale=0.4, size=num_samples)  # Sepalo lungo
+sepal_width = np.random.normal(loc=3.2, scale=0.3, size=num_samples)
+petal_length = np.random.normal(loc=2.0, scale=0.2, size=num_samples)  # Petalo corto
+petal_width = np.random.normal(loc=1.8, scale=0.2, size=num_samples)  # Petalo largo
+
+# Creare il nuovo dataframe
+iris_immagina_df = pd.DataFrame({
+    "sepal_length": sepal_length,
+    "sepal_width": sepal_width,
+    "petal_length": petal_length,
+    "petal_width": petal_width,
+    "class": ["Iris-immagina"] * num_samples
+})
+
+# Unire i dati originali con quelli sintetici
+extended_iris_df = pd.concat([iris_df, iris_immagina_df], ignore_index=True)
+```
+
+<br>
+
+{{% fragment %}}
+
+Notare che GenAI ha scelto __arbitrariamente__ (ma _ragionevolmente_):
+- di usare _distribuzioni normali_ per i dati sintetici
+    + ed i _parametri_ di queste distribuzioni
+- di generare dati multi-dimensionali _una componente per volta_
+
+{{% /fragment %}}
+
+{{% fragment %}}
+> Come?
+{{% /fragment %}}
+
+---
+
+{{< image src="./processing/generation-5.png" width="100%" max-h="80vh" >}}
+
+---
+
+|   Feature  |   Original Mean (All Classes)  |   Original Std (All Classes)  |   Synthetic Mean (Iris-immagina)  |   Synthetic Std (Iris-immagina)  |   Rationale  |
+|---|---|---|---|---|---|
+|   `sepal_length`  |   5.85  |   0.83  |   7.0  |   0.4  |   Scelto per essere _più lungo_ delle altre specie  |
+|   `sepal_width`  |   3.05  |   0.43  |   3.2  |   0.3  |   _Simile a Versicolor_ per non essere un outlier estremo  |
+|   `petal_length`  |   3.77  |   1.76  |   2.0  |   0.2  |   _Corto_ per distinguersi dalle altre specie  |
+|   `petal_width`  |   1.21  |   0.76  |   1.8  |   0.2  |   _Largo_ per renderlo unico rispetto alle altre specie  |
+
+---
+
+## Commenti
+
+- Rimane da __verificare__ che il _codice generato_ produca _davvero_ i risultati mostrati da GenAI
+
+- Il __codice__ generato da GenAI è ciò che rende l'esercizio _ispezionabile_ e _ripetibile_
+
+- La scelta dei parametri per la generazione dei dati è stata __arbitraria__, ma _ragionevole_
+    + ... GenAI ha correttamente _interpretato_ le richieste dell'utente
+
+- Meglio sarebbe <u>non</u> avere questo {{% color "red" %}}margine di interpretazione{{% /color %}}
+    + i.e., l'utente dovrebbe specificare i _dettagli_ di __come__ generare i dati sintetici
+
+{{% /section %}}
 
 ---
 
