@@ -41,6 +41,7 @@ outputs = ["Reveal"]
     3. [Esempio di GenAI come assistente di lettura](#reading)
     4. [Esempio di GenAI come assistente per l'elaborazione dei dati](#data-processing)
     5. [Esempio di GenAI come generatore di contenuti](#content-generation)
+4. [Dichiarare / citare l'impiego di GenAI](#citations)
 
 {{% /section %}}
 
@@ -1625,6 +1626,83 @@ Il risultato
 > Non è così facile __controllare__ con _precisione_ la generazione di immagini
 
 {{% /section %}}
+
+---
+
+{{< slide id="citations" >}}
+
+# Dichiarare / citare l'impiego di GenAI
+
+## Perché
+
+- __Trasparenza__ ed onestà --- è giusto che i fruitori di un contenuto sappiano come è stato prodotto
+- __etica__ accademica --- è giusto dare _credito_ alle fonti
+- __accountability__ --- è giusto che gli autori umani si prendano la _responsabilità_ dell'impiego di GenAI
+
+---
+
+## Dichiarare / citare l'impiego di GenAI
+
+### Quando dichiarare
+
+> Quando il contributo di GenAI è __sostanziale__ al lavoro svolto
+
+<br>
+
+### Esempi
+
+- Produzione di __contenuti originali__
+    * se la GenAI ha _generato idee nuove_ o ha avuto un _ruolo significativo nella scrittura_ di un documento
+    * se ha _contribuito alla formulazione_ di un'ipotesi di ricerca o ha _suggerito nuove prospettive_
+
+- __Analisi di dati__ con GenAI
+    * se GenAI ha aiutato ad _interpretare dati_, fare _sintesi_ o _individuare pattern_ innovativi
+    * se GenAI ha prodotto _dati sintetici_ o aiutato a _selezionare iper-parametri_ di modelli predittivi
+
+- __Generazione__ o __rielaborazione__ di testi
+    * se hai utilizzato la GenAI per _scrivere una parte sostanziale_ del testo
+    * se la GenAI ha _parafrasato_, _riscritto_ o _ampliato_ sezioni importanti
+
+- Creazione di immagini, grafici, o __contenuti audio/visivi__
+
+- __Se richiesto__ da regolamenti, docenti o editori
+    * alcuni docenti o riviste possono avere _regole specifiche_ che impongono la dichiarazione dell’uso di GenAI
+
+---
+
+## Dichiarare / citare l'impiego di GenAI
+
+### Quando __non__ dichiarare
+
+> Quando il contributo di GenAI __non__ è __sostanziale__, ma meramente di _supporto_
+
+<br>
+
+### Esempi
+
+- Ricerche __preliminari__ e brainstorming
+    * se hai usato la GenAI solo per _raccogliere informazioni_ su un argomento, senza riportare testualmente i contenuti generati
+
+- __Correzioni__ grammaticali e stilistiche
+    * se hai usato GenAI per _migliorare la leggibilità_, correggere errori grammaticali, o suggerire modifiche stilistiche.
+
+- __Traduzione__ di frammenti di testo
+    * se la GenAI è stata usata per _tradurre frasi o documenti_, ma hai poi _rivisto_ il testo _manualmente_
+
+- Uso di GenAI come __assistente personale__
+    * se hai utilizzato AI per _riassumere articoli_, _fornire spiegazioni_, o suggerire titoli, ma non hai riportato testualmente le sue risposte
+
+---
+
+## A proposito di dichiarazioni
+
+```text
+Queste slide sono state realizzate con l'aiuto di GitHub Copilot e ChatGPT.
+Il primo è stato usato per velocizzare la stesura della prima bozza.
+Entrambi sono stati usati per creare alcuni degli esempi e delle immagini qui presentate.
+Ogni slide è stata rivista e verificata manualmente.
+L'autore si prende la piena responsabilità per il contenuto di queste slide.
+```
 
 ---
 
