@@ -127,7 +127,7 @@ Algoritmi di _IA_ in grado di __generare automaticamente__ _contenuti_, e.g.:
 - __Bias__ di __campionamento__: GenAI conosce _solo_ ciò su cui è stato _allenato_ + pia speranza che impari a _generalizzare_
 
 - L'apprendimento usa dati presi __dal Web__ + eventuali __dati aziendali__ del fornitore del servizio
-    + comprovato impiego delle _interazioni_ degli utenti predenti come _feedback_ per allenamenti successivi
+    + comprovato impiego delle _interazioni_ degli utenti precedenti come _feedback_ per allenamenti successivi
 
 {{% fragment %}}
 ##
@@ -151,7 +151,7 @@ Algoritmi di _IA_ in grado di __generare automaticamente__ _contenuti_, e.g.:
 
 > - Informazioni __recenti__ potrebbero <u>non</u> essere state (ancora) _apprese_
 > - Rischio di ricevere risposte __datate__ o _manchevoli_ da GenAI
-> - GenAI dà l'_impressione_ di star imaprando __durante la conversazione__, ma in realtà lo fa _offline_
+> - GenAI dà l'_impressione_ di star imparando __durante la conversazione__, ma in realtà lo fa _offline_
 {{% /fragment %}}
 
 ---
