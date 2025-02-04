@@ -413,7 +413,7 @@ Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, C
 * ... _motore di ricerca_: uso GenAI per __ricercare__ informazioni
 * ... _assistente di (ri)scrittura_: uso GenAI per __(ri)scrivere__ documenti
 * ... _assistente di lettura_: uso GenAI per __acquisire informazioni__ da documenti
-* ... _assistende per l'elaborazione dei dati_: uso GenAI per __elaborare__ dati
+* ... _assistente per l'elaborazione dei dati_: uso GenAI per __elaborare__ dati
 * ... _generatore di contenuti_: uso GenAI per __creare__ contenuti
 
 {{% color "red" %}}Lista non esaustiva!{{% /color %}}
@@ -755,7 +755,7 @@ Possiamo considerare FM come __esperti__ su tematiche che:
 {{% /col %}}
 {{% col %}}
 1. Frase generica, incontestabile, corretta
-2. {{% color "green" %}}Obietto dell'articolo{{% /color %}}
+2. {{% color "green" %}}Obiettivo dell'articolo{{% /color %}}
 3. {{% color "gold" %}}Obiettivo generico, sempre buono per rassegna{{% /color %}}
 4. {{% color "red" %}}Contributo specifico: suggerisce struttura articolo{{% /color %}}
 5. {{% color "gold" %}}Contributo generico{{% /color %}}
